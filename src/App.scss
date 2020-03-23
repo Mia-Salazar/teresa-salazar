@@ -21,8 +21,6 @@ p, a {
 }
 
 .main {
-    background-color: gray;
-
     @media (min-width: 1024px) {
         margin-left: 30%;
         width: 70%;
@@ -30,8 +28,8 @@ p, a {
     }
 
     @media (min-width: 1280px){
-        margin-left: 25%;
-        width: 75%;
+        margin-left: 400px;
+        width: calc(100% - 400px)
     }
 }
 
@@ -49,6 +47,15 @@ $z-index-infra: -1;
 $z-index-normal:1;
 $z-index-md: 5;
 $z-index-lg: 10;
+
+/*Animations*/
+@keyframes personality {
+    from {content:'friki'}
+    25% {content: 'bilingüe'}
+    50% {content: 'Psicóloga'}
+    75% {content: 'cantante de karaoke'}
+    to {content: 'Human Resources'}
+  }
 
 
 

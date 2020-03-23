@@ -1,0 +1,22 @@
+@import '../../App.scss';
+
+.home {
+	h2 {
+		display: flex;
+		justify-content: center;
+		color: $dark-purple;
+		font-size: 52px;
+		font-family: 'Pacifico', cursive;;
+	}
+
+	p {
+		text-align: center;
+		font-size: 18px;
+		color: $dark-purple;
+		font-family: 'Montserrat', sans-serif;
+	}
+
+	&__personality {
+
+	}
+}

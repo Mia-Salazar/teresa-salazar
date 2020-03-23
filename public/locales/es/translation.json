@@ -10,5 +10,12 @@
     "awards": "Premios",
     "speech": "Charlas y publicaciones",
     "contact": "Contacto"
+  },
+  "home": {
+    "title": "¡Hola!",
+    "HR": "Human Resources",
+    "friki": "friki",
+    "bilingual": "bilingüe",
+    "karaoke": "cantante de karaoke"
   }
 }

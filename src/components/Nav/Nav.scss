@@ -1,40 +1,42 @@
 @import '../../App.scss';
 .nav {
-	display: none;
 	margin-top:60px;
 	overflow: hidden;
-	transition: .5s ease-in-out;
 
-	&__square-container {
-		height: 100vh;
-		width: 100%;
-		position: relative;
-		top:0;
-		left:0;
-	}
-
-	&__square {
-		@media (max-width: 1023px) {
-			width: 500px;
-			height: 500px;
-			transform: rotate(45deg);
-			top: 115px;
-			position: absolute;
-			background-color: $main-purple;
-		}
-
-	}
-
-	&.open {
+	@media (max-width: 1023px) {
 		width:100%;
 		height: 100vh;
 		display:flex;
 		flex-direction: column;
 		position:absolute;
 		top:-70px;
-		left:0;
+		right:-100%;
 		background-color: $white;
 		z-index: $z-index-md;
+
+		transition: .8s ease-in-out;
+	}
+
+	&__square {
+		@media (max-width: 1023px) {
+			width: 500px;
+			height: 500px;
+			position: absolute;
+			top: 115px;
+			right: calc(50% - 250px);
+			transform: rotate(180deg);
+			background-color: $main-purple;
+			transition: .8s ease-in-out;
+		}
+
+	}
+
+	&.open {
+		right:0;
+
+		.nav__square {
+			transform: rotate(45deg);
+		}
 	}
 
 	@media (min-width: 1024px){
@@ -46,13 +48,13 @@
 		list-style-type: none;
 
 		@media (max-width: 1023px) {
-			// margin-top: 150px;
+			margin-top: 150px;
 		}
 	}
 
 	&__item {
 		@media (max-width: 1023px) {
-			margin: 10px auto;
+			margin: 20px auto;
 		}
 
 		width: fit-content;
@@ -80,7 +82,7 @@
 	}
 
 	&__link {
-		@media (max-width: 1024px){
+		@media (max-width: 1023px){
 			color: $white;
 		}
 		
