@@ -1,0 +1,59 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin:0;
+}
+
+h1 {
+    font-family: 'Pacifico', cursive;
+}
+
+p, a {
+    font-family: 'Montserrat', sans-serif;
+}
+
+.app-container {
+    @media (min-width: 1024px){
+        display: flex;
+    }
+}
+
+.main {
+    background-color: gray;
+
+    @media (min-width: 1024px) {
+        margin-left: 30%;
+        width: 70%;
+        height: 100vh;
+    }
+
+    @media (min-width: 1280px){
+        margin-left: 25%;
+        width: 75%;
+    }
+}
+
+/*Colors*/
+$white: #fff;
+$black: #000;
+$dark-purple: #232123;
+$main-purple: #7F3451;
+$dark-blue: #4186b4;
+$light-blue: #419d99;
+$yellow: #f8e9a2;
+
+/*Z index*/
+$z-index-infra: -1;
+$z-index-normal:1;
+$z-index-md: 5;
+$z-index-lg: 10;
+
+
+
+
+
+
+
+
