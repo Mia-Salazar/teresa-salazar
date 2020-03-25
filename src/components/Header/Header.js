@@ -13,7 +13,7 @@ const Header = () => {
 
 	const { t } = useTranslation();
   return (
-		<header className="header">
+		<header className={menuVisible ? 'header open' : 'header'} >
       <div className="header__img-frame">
         <img className="header__img" src={foto} alt={t('header.img')} />
       </div>

@@ -1,22 +1,37 @@
 @import '../../App.scss';
 
 .home {
-	h2 {
-		display: flex;
-		justify-content: center;
-		color: $dark-purple;
-		font-size: 52px;
-		font-family: 'Pacifico', cursive;;
-	}
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
 
 	p {
-		text-align: center;
-		font-size: 18px;
+		margin: 8px 0;
 		color: $dark-purple;
-		font-family: 'Montserrat', sans-serif;
+		text-align: center;
+		font-size: 22px;
+		font-weight: 500;
+		font-family: $sans-serif-family;
+	}
+
+	&__leading-text {
+		margin: 30px 20px -14px 20px;
+		color: $dark-purple;
+		font-size: 32px;
+		font-family: $serif-family;
+		z-index: $z-index-normal;
+
+		@media (in-width: 768px){
+			margin: 20px 20px 20px 20px;
+			font-size: 22px;
+		}
+	}
+
+	&__projects {
+		background-color: $main-purple;
 	}
 
 	&__personality {
-
+		font-weight: bold;
 	}
 }

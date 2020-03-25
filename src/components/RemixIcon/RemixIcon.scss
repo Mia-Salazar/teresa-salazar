@@ -2,6 +2,10 @@
 
 .remix-icon {
     &.black{
-        color: $black;
+        color: $dark-purple;
     }
+    &.white {
+        color: $white;
+    }
+
 }

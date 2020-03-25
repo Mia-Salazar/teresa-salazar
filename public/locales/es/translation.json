@@ -16,6 +16,10 @@
     "HR": "Human Resources",
     "friki": "friki",
     "bilingual": "bilingüe",
-    "karaoke": "cantante de karaoke"
+    "karaoke": "cantante de karaoke",
+    "project": "Algunos de mis proyectos"
+  },
+  "footer": {
+    "made": "Hecho por"
   }
 }

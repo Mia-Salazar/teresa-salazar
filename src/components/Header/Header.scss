@@ -62,7 +62,7 @@
 		font-size: 32px;
 		z-index:$z-index-normal;
 		font-weight: bold;
-		font-family: 'Pacifico', cursive;
+		font-family: $serif-family;
 
 		@media (min-width: 1050px) {
 			font-size: 42px;
@@ -119,7 +119,7 @@
 	}
 
 	&__text {
-		font-family: 'Montserrat', sans-serif;
+		font-family: $sans-serif-family;
 	}
 
 	&__hamburguer {

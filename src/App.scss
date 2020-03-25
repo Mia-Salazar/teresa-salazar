@@ -21,6 +21,8 @@ p, a {
 }
 
 .main {
+    // background-color: #d5cfff3d;
+
     @media (min-width: 1024px) {
         margin-left: 30%;
         width: 70%;
@@ -47,6 +49,10 @@ $z-index-infra: -1;
 $z-index-normal:1;
 $z-index-md: 5;
 $z-index-lg: 10;
+
+/*Font family*/
+$serif-family:'Pacifico', cursive;
+$sans-serif-family: 'Montserrat', sans-serif;
 
 /*Animations*/
 @keyframes personality {
