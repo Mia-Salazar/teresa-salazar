@@ -1,30 +1,59 @@
 @import '../../App.scss';
 
 .header {
+	width: 100%;
 	height: 70px;
 	display: flex;
-	justify-content: space-between;
 	align-items: center;
-	position: relative;
+	position: fixed;
 	padding: 0 20px;
+	background-color: $white;
+	box-shadow: 0 3px 3px 0 rgba($black,0.08);
+	z-index: $z-index-super;
 
 	@media (min-width: 1024px){
 		width: 30%;
 		height: 100vh;
 		flex-direction: column;
 		align-items: flex-start;
-		justify-content: unset;
 		position: fixed;
 		top: 0;
 		left: 0;
 		padding: 20px;
 		border-right: 16px solid $dark-purple;
-		z-index: $z-index-normal;
 		overflow-x: hidden;
+		box-shadow: none;
 	}
 
 	@media (min-width: 1280px) {
-		width: 400px;
+		width: 360px;
+	}
+
+	&__square-container{
+		position:relative;
+		height: 100%;
+		display: flex;
+		align-items: center;
+
+
+		@media (min-width: 1024px){
+			display: none;
+		}
+	}
+	
+	&__square {
+		width:30px;
+		height:30px;
+		position: absolute;
+		left:20px;
+		background-color: $main-purple;
+		transform: rotate(45deg);
+		transition: all 0.2s;
+
+		&--front {
+			left: 0;
+			background-color: $dark-purple;
+		}
 	}
 
 	&__img-frame {
@@ -59,32 +88,28 @@
 		width: fit-content;
 		margin: 0;
 		color: $dark-purple;
-		font-size: 32px;
+		font-size: $fs-2xl;
 		z-index:$z-index-normal;
 		font-weight: bold;
 		font-family: $serif-family;
 
 		@media (min-width: 1050px) {
-			font-size: 42px;
+			font-size: $fs-3xl;
 		}
 	}
 
 	&__title {
-		@media (max-width: 1023px){
-			position: relative;
-			&:after {
-				content: '';
-				width: 100%;
-				height: 8px;
-				position: absolute;
-				bottom:7px;
-				left:0;
-				background-color: $main-purple;
-			}
-		}
+		margin-left: 64px;
 
 		@media (min-width: 1024px) {
 			margin-top: 100px;
+			margin-left: 0;
+		}
+
+		span {
+			@media (max-width: 767px){
+				display: none;
+			}
 		}
 	}
 
@@ -127,13 +152,14 @@
 		height: 40px;
 		display: flex;
 		flex-wrap: wrap;
-		position: relative;
+		position: fixed;
+		right: 20px;
 		padding: 0;
 		appearance: none;
 		background-color: transparent;
 		border: none;
 		overflow: hidden;
-		z-index: $z-index-lg;
+		z-index: $z-index-super-extra;
 
 		@media (min-width: 1024px) {
 			display: none;

@@ -1,0 +1,40 @@
+@import '../../App.scss';
+
+.article {
+    width: calc(100% - 40px);
+    height: 250px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin: 30px 20px;
+    padding:20px;
+    background-color: $white;
+    background-size: cover;
+    background-position: center;
+
+    &__title {
+        max-width: 330px;
+        margin:0 auto;
+        color: #fff;
+        text-shadow: 0 2px 4px rgba($black,0.5);
+        font-weight: bold;
+        text-align: center;
+        font-family: $sans-serif-family;
+        font-size: $fa-lg;
+    }
+
+    &__link {
+        width: 150px;
+        margin: 0 auto;
+        padding: 12px 24px;
+        color: $white;
+        text-align: center;
+        font-weight: bold;
+        text-decoration: none;
+        background-color: $dark-purple;
+
+        &:hover {
+            background-color: $main-purple;
+        }
+    }
+}

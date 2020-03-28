@@ -1,0 +1,10 @@
+@import '../../App.scss';
+
+.review {
+    display: flex;
+    flex-direction: column;
+
+    &__text-container {
+        width: 90%;
+    }
+}

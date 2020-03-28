@@ -8,11 +8,11 @@
 		height: 100vh;
 		display:flex;
 		flex-direction: column;
-		position:absolute;
-		top:-70px;
+		position:fixed;
+		top:-60px;
 		right:-100%;
 		background-color: $white;
-		z-index: $z-index-md;
+		z-index: $z-index-super;
 
 		transition: .8s ease-in-out;
 	}
@@ -88,7 +88,7 @@
 		}
 		
 		color: $dark-purple;
-		font-size: 22px;
+		font-size: $fa-lg;
 		font-weight: bold;
 		text-decoration: none;
 

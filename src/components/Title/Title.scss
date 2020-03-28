@@ -6,7 +6,11 @@
     display: flex;
     align-items: center;
     justify-content: center;
-    margin: 50px auto 46px auto;
+    margin: 50px auto 70px auto;
+
+    @media (min-width: 768px){
+        margin-bottom: 100px;
+    }
 
     &__square {
         width: 100px;
@@ -15,8 +19,8 @@
         background-color: $main-purple;
 
         @media (min-width: 1024px){
-            width: 120px;
-            height: 120px;
+            width: 140px;
+            height: 140px;
         }
 
     }
@@ -33,7 +37,7 @@
         font-family: $serif-family;
 
         @media (min-width: 1024px){
-            font-size: 42px;
+            font-size: $fs-4xl;
         }
     }
 }

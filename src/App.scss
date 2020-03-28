@@ -21,7 +21,13 @@ p, a {
 }
 
 .main {
-    // background-color: #d5cfff3d;
+    section {
+        padding-top:90px;
+
+        @media (min-width: 1024px) {
+            padding-top: 0;
+        }
+    }
 
     @media (min-width: 1024px) {
         margin-left: 30%;
@@ -30,8 +36,8 @@ p, a {
     }
 
     @media (min-width: 1280px){
-        margin-left: 400px;
-        width: calc(100% - 400px)
+        margin-left: 360px;
+        width: calc(100% - 360px)
     }
 }
 
@@ -49,10 +55,21 @@ $z-index-infra: -1;
 $z-index-normal:1;
 $z-index-md: 5;
 $z-index-lg: 10;
+$z-index-super: 10000;
+$z-index-super-extra:10001;
+
 
 /*Font family*/
 $serif-family:'Pacifico', cursive;
 $sans-serif-family: 'Montserrat', sans-serif;
+
+/*Font sizes*/
+$fs-base: 16px;
+$fs-md: 18px; 
+$fa-lg: 22px;
+$fs-2xl: 32px;
+$fs-3xl: 42px;
+$fs-4xl: 52px;
 
 /*Animations*/
 @keyframes personality {

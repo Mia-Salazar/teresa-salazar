@@ -8,8 +8,11 @@ const Footer = () => {
 	const { t } = useTranslation();
   return (
     <div className="footer-container">
-      <p className="footer-container__title">Teresa Salazar</p>
-      <p className="footer-container__subtitle">García-Rosales</p>
+      <div className="footer-container__square-container">
+        <span className="footer-container__square footer-container__square--back"></span>
+        <span className="footer-container__square footer-container__square--front"></span>
+        <p className="footer-container__title">Teresa Salazar</p>
+      </div>
       <div className="footer-container__social">
         <SocialLink href="https://www.linkedin.com/in/seleccionit/" icon="linkedin-box" fill={'fill'} size="2x" color="white" />
         <SocialLink href="https://twitter.com/tsalazargr" icon="twitter" fill={'fill'} size="2x" color="white" />

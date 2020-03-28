@@ -6,32 +6,85 @@
 	justify-content: center;
 
 	p {
-		margin: 8px 0;
+		max-width: 600px;
+		margin: 8px auto;
+		padding: 0 20px;
 		color: $dark-purple;
 		text-align: center;
-		font-size: 22px;
+		font-size: $fs-md;
 		font-weight: 500;
 		font-family: $sans-serif-family;
 	}
 
 	&__leading-text {
-		margin: 30px 20px -14px 20px;
+		margin: 100px 20px 20px 20px;
 		color: $dark-purple;
-		font-size: 32px;
+		font-size: $fs-2xl;
 		font-family: $serif-family;
 		z-index: $z-index-normal;
 
-		@media (in-width: 768px){
-			margin: 20px 20px 20px 20px;
-			font-size: 22px;
+		@media (max-width: 767px){
+			margin: 40px 20px 20px 20px;
+			font-size: $fa-lg;
 		}
 	}
 
 	&__projects {
+		padding: 20px 0 20px 0;
 		background-color: $main-purple;
+
+		@media (min-width: 1024px) {
+			padding: 20px 20px 10px 20px;
+		}
 	}
 
 	&__personality {
 		font-weight: bold;
+	}
+
+	&__reviews {
+		max-width: 700px;
+		display: flex;
+		flex-direction: column;
+		justify-content: center;
+		margin: 0 auto;
+		padding: 0 20px;
+		font-size: $fs-base;
+	}
+
+	/*Carousel*/
+
+	&__carousel {
+		.react-multi-carousel-track {
+			margin: 20px 0;
+		}
+		
+	}
+
+	.react-multiple-carousel__arrow{
+		background-color: $dark-purple;
+	}
+
+	// } react-multiple-carousel__arrow--right
+
+	&__carousel-dot {
+		.react-multi-carousel-dot {
+			button {
+				width: 20px;
+				height: 20px;
+				margin-right: 16px;
+				border: none;
+				border-radius:0;
+				background-color: $white;
+
+			}
+
+			&--active{
+				button {
+					background-color: $dark-purple;
+				}
+
+			}
+		}
 	}
 }
