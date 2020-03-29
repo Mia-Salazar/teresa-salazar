@@ -5,7 +5,7 @@ import './SocialLink.scss'
 
 export const SocialLink = ({ icon, href, fill, size, color}) => {
     return (
-        <li className="social-link"><a href={href}><RemixIcon type={icon} fill={fill} size={size} color={color}/></a></li>
+        <li className="social-link"><a href={href} target="_blank" rel="noreferrer noopener"><RemixIcon type={icon} fill={fill} size={size} color={color}/></a></li>
     )
 }
 

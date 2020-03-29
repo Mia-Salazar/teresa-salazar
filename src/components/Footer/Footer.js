@@ -11,7 +11,7 @@ const Footer = () => {
       <div className="footer-container__square-container">
         <span className="footer-container__square footer-container__square--back"></span>
         <span className="footer-container__square footer-container__square--front"></span>
-        <p className="footer-container__title">Teresa Salazar</p>
+        <p className="footer-container__title">Teresa</p>
       </div>
       <div className="footer-container__social">
         <SocialLink href="https://www.linkedin.com/in/seleccionit/" icon="linkedin-box" fill={'fill'} size="2x" color="white" />
@@ -19,7 +19,8 @@ const Footer = () => {
         <SocialLink href="https://medium.com/@tsalazargr" icon="medium" fill={'fill'} size="2x" color="white" />
         <SocialLink href="https://github.com/TSalazargr" icon="github" fill={'fill'}  size="2x" color="white" />
       </div>
-      <p className="footer-container__author">{t('footer.made')} <a href="https://www.miasalazar.com">Mia Salazar</a></p>
+      <p className="footer-container__author">{t('footer.made')} <a href="https://www.miasalazar.com" target="_blank" rel="noreferrer noopener">Mia Salazar</a></p>
+      <p className="footer-container__author">{t('footer.github')} <a href="https://github.com/Mia-Salazar/teresa-salazar" target="_blank" rel="noreferrer noopener">Github</a></p>
     </div>
   );
 }

@@ -1,15 +1,14 @@
 import React from 'react'
-import { useTranslation } from 'react-i18next'
 import PropTypes from 'prop-types'
-import RemixIcon from '../../components/RemixIcon/RemixIcon'
 import './Review.scss'
 
-export const Review = ({title, job, text, iconSize, iconName, onClick }) => {
-    const { t } = useTranslation();
+export const Review = ({title, job, text, src, alt, onClick }) => {
 
     return (
         <article className="review" onClick={onClick}>
-            <RemixIcon type={iconName} size={iconSize} />
+            <figure className="review__img-container">
+                <img alt={alt} src={src} className="review__img"/>
+            </figure>
             <div className="review__text-container">
                 <h4 className="review__title">{title}</h4>
                 <p className="review__job">{job}</p>
@@ -23,8 +22,8 @@ Review.propTypes = {
     title: PropTypes.string.isRequired,
     job: PropTypes.string.isRequired,
     text: PropTypes.string,
-    iconSize: PropTypes.string,
-    iconName: PropTypes.string,
+    src: PropTypes.string,
+    alt: PropTypes.string,
     onClick: PropTypes.func
 }
 

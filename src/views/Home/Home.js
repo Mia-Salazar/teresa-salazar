@@ -12,6 +12,9 @@ import pumpkinImage from '../../assets/images/halloween.jpg'
 import wantedImage from '../../assets/images/wanted.jpg'
 import pyconesImage from '../../assets/images/pycones.JPG'
 import openImage from '../../assets/images/open.JPG'
+import juan from '../../assets/images/juan.jpg'
+import luis from '../../assets/images/luis.jpg'
+import gonzalo from '../../assets/images/gonzalo.jpg'
 
 const Home = () => {
   const { t } = useTranslation();
@@ -67,11 +70,11 @@ const Home = () => {
         <Article title={t('article.article5.title')} link="https://www.facebook.com/85638467171/videos/318707818747458/?t=2" imageUrl={openImage} />
       </Carousel>;
       </div>
-      <h3 className="home__leading-text">{t('opinion.title')}</h3>
+      <h3 className="home__leading-text home__leading-text--review">{t('opinion.title')}</h3>
       <div className="home__reviews">
-        <Review title={t('opinion.one.name')} iconName="medal-2" job={t('opinion.one.job')} text={t('opinion.one.text')} iconSize="3x"/>
-        <Review title={t('opinion.two.name')} iconName="medal-2" job={t('opinion.two.job')} text={t('opinion.two.text')}/>
-        <Review title={t('opinion.three.name')} iconName="medal-2" job={t('opinion.three.job')} text={t('opinion.three.text')}/>
+        <Review title={t('opinion.one.name')} src={juan} alt={t('opinion.one.alt')} job={t('opinion.one.job')} text={t('opinion.one.text')}/>
+        <Review title={t('opinion.two.name')} src={luis} alt={t('opinion.two.alt')} job={t('opinion.two.job')} text={t('opinion.two.text')}/>
+        <Review title={t('opinion.three.name')} src={gonzalo} alt={t('opinion.three.alt')} job={t('opinion.three.job')} text={t('opinion.three.text')}/>
       </div>
     </section>
   );

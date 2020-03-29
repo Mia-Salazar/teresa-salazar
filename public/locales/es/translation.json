@@ -20,7 +20,8 @@
     "project": "Algunos de mis proyectos"
   },
   "footer": {
-    "made": "Hecho por"
+    "made": "Hecho por",
+    "github": "Proyecto en"
   },
   "article": {
     "cta": "Ver más",
@@ -45,16 +46,19 @@
     "one": {
       "name": "Juan Manuel Pérez",
       "job": "Devops / System Engineer en Amaris",
+      "alt": "Foto de Juan Manuel Pérez",
       "text": "Una de las entrevistadora más atenta y metódica que tiene siempre controlado mi perfil cuando voy a preguntar el estado de mis candidaturas. Una pena que no coincida trabajar con ella visto esfuerzo que ha puesto en intentar que el proceso salga adelante. Espero poder volver a contar con ella en mis futuras búsquedas de empleo"
     },
     "two": {
       "name": "Luis Vidaechea Benito",
       "job": "Scrum Master & Agile Coach en Entelgy",
+      "alt": "Foto de Luis Vidaechea",
       "text": "Teresa es una reclutadora excepcional, muy involucrada y apasionada de su trabajo. He tenido la suerte de estar en un par de procesos de selección con ella y solo puedo decir que el trato recibido fue increíble, muy atenta y cercana."
     },
     "three": {
       "name": "Gonzalo Pareja Bolaños",
       "job": "COO at Avansis",
+      "alt": "Foto de Gonzalo Pareja",
       "text": "Teresa es una excelente profesional, desde el primer momento que la conocí me transmitió estar completamente comprometida con su trabajo e involucrada con las tareas a desempeñar. Es una persona muy agradable, organizada, y sabe formar equipo. Es de las mejores recruiters con quien he trabajado y estoy seguro de que aportará mucho valor en cualquier empresa en donde esté."
     }
   }
