@@ -5,6 +5,7 @@
     a {
         position:relative;
         text-decoration: none;
+        z-index: $z-index-normal;
 
         &:after {
             content:'';
@@ -16,6 +17,7 @@
             background-color: $main-purple;
             opacity:0.5;
             transition: all 0.8s;
+            z-index: $z-index-infra;
         }
 
         &:hover {

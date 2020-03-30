@@ -5,29 +5,7 @@
 	flex-direction: column;
 	justify-content: center;
 
-	&__text {
-		max-width: 600px;
-		margin: 8px auto;
-		padding: 0 20px;
-		color: $dark-purple;
-		text-align: center;
-		font-size: $fs-md;
-		font-weight: 500;
-		font-family: $sans-serif-family;
-	}
-
-	&__leading-text {
-		margin: 100px 20px 40px 20px;
-		color: $dark-purple;
-		font-size: $fs-2xl;
-		font-family: $serif-family;
-		z-index: $z-index-normal;
-
-		@media (max-width: 767px){
-			margin: 40px 20px 20px 20px;
-			font-size: $fa-lg;
-		}
-
+	.leading-text {
 		&--review{
 			@media (min-width: 768px){
 				margin-top: 50px;

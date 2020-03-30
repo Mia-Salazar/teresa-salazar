@@ -51,7 +51,7 @@ $light-blue: #419d99;
 $yellow: #f8e9a2;
 $gray: #39343B;
 $medium-gray: #706970;
-$light-gray: #E6C2BA;
+$light-gray: #eee;
 
 /*Z index*/
 $z-index-infra: -1;
@@ -84,6 +84,31 @@ $fs-4xl: 52px;
     to {content: 'Human Resources'}
   }
 
+
+/*General styles*/
+.text {
+    max-width: 600px;
+    margin: 8px auto;
+    padding: 0 20px;
+    color: $dark-purple;
+    text-align: center;
+    font-size: $fs-md;
+    font-weight: 500;
+    font-family: $sans-serif-family;
+}
+
+.leading-text {
+    margin: 100px 20px 40px 20px;
+    color: $dark-purple;
+    font-size: $fs-2xl;
+    font-family: $serif-family;
+    z-index: $z-index-normal;
+
+    @media (max-width: 767px){
+        margin: 40px 20px 20px 20px;
+        font-size: $fa-lg;
+    }
+}    
 
 
 

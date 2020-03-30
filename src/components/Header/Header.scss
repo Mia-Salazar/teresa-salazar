@@ -11,6 +11,10 @@
 	box-shadow: 0 3px 3px 0 rgba($black,0.08);
 	z-index: $z-index-super;
 
+	a {
+		text-decoration: none;
+	}
+
 	@media (min-width: 1024px){
 		width: 30%;
 		height: 100vh;
@@ -92,6 +96,7 @@
 		z-index:$z-index-normal;
 		font-weight: bold;
 		font-family: $serif-family;
+		text-decoration: none;;
 
 		@media (min-width: 1050px) {
 			font-size: $fs-3xl;

@@ -72,7 +72,8 @@
             left:0;
             background-color: $main-purple;
             opacity:0.5;
-            transition: all 0.8s;
+			transition: all 0.8s;
+			z-index: $z-index-infra;
         }
 
         &:hover {
@@ -91,6 +92,7 @@
 		font-size: $fa-lg;
 		font-weight: bold;
 		text-decoration: none;
+		z-index: $z-index-normal;
 
 	}
 

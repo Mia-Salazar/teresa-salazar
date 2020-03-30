@@ -25,8 +25,5 @@ const Footer = () => {
   );
 }
 
-Footer.propTypes = {
-  Footer: PropTypes.string.isRequired
-}
 
 export default Footer;

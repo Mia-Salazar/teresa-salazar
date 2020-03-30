@@ -1,6 +1,7 @@
 import React from 'react'
 import { useTranslation } from 'react-i18next'
 import Carousel from "react-multi-carousel";
+import TextLoop from "react-text-loop";
 import "react-multi-carousel/lib/styles.css";
 import Title from '../../components/Title/Title'
 import Article from '../../components/Article/Article'
@@ -18,8 +19,6 @@ import gonzalo from '../../assets/images/gonzalo.jpg'
 
 const Home = () => {
   const { t } = useTranslation();
-  
-  var personalityText = ['Teresa', 'Human Resources', t('freak'), t('bilingual'), t('karaoke fan')];
 
   const responsive = {
     superLargeDesktop: {
@@ -41,26 +40,12 @@ const Home = () => {
     },
   };
 
-  textSequence(0);
-  function textSequence(i) {
-    if (personalityText.length > i) {
-      setTimeout(function() {
-        document.querySelector(".home__personality").innerHTML = personalityText[i];
-        textSequence(++i);
-      }, 1500);
-
-    } else if (personalityText.length === i) {
-      textSequence(0);
-    }
-  }
-
   return (
     <section className="home">
       <Title title={t('home.title')} />
-      <p className="home__text">Soy <span className="home__text home__personality"></span></p>
-      <p className="home__text">{t('header.about')}</p>
-
-      <h3 className="home__leading-text">{t('home.project')}</h3>
+      <p className="text">Soy <span className="home__personality"><TextLoop springConfig={{ stiffness: 180, damping: 8 }} children={["Teresa Salazar", "Human Resources", "freak as hell", "karaoke fan"]} /></span></p>
+      <p className="text">{t('header.about')}</p>
+      <h3 className="leading-text">{t('home.project')}</h3>
       <div className="home__projects">
       <Carousel responsive={responsive} showDots={true} infinite={true} containerClass="home__carousel" keyBoardControl={true} dotListClass="home__carousel-dot">
         <Article title={t('article.article1.title')} link="https://medium.com/@tsalazargr/el-algoritmo-de-apple-card-es-el-nuevo-test-de-inteligencia-877114351efa" imageUrl={cardImage} />
@@ -70,7 +55,7 @@ const Home = () => {
         <Article title={t('article.article5.title')} link="https://www.facebook.com/85638467171/videos/318707818747458/?t=2" imageUrl={openImage} />
       </Carousel>;
       </div>
-      <h3 className="home__leading-text home__leading-text--review">{t('opinion.title')}</h3>
+      <h3 className="leading-text leading-text--review">{t('opinion.title')}</h3>
       <div className="home__reviews">
         <Review title={t('opinion.one.name')} src={juan} alt={t('opinion.one.alt')} job={t('opinion.one.job')} text={t('opinion.one.text')}/>
         <Review title={t('opinion.two.name')} src={luis} alt={t('opinion.two.alt')} job={t('opinion.two.job')} text={t('opinion.two.text')}/>

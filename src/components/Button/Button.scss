@@ -1,0 +1,19 @@
+@import '../../App.scss';
+
+.button {
+    display:flex;
+    justify-content: center;
+    text-align: center;
+    margin: 0;
+    padding: 20px 20px;
+    border: none;
+    color: $white;
+    background-color: $main-purple;
+    font-size: $fs-base;
+    font-family: $sans-serif-family;
+    font-weight: 500;
+
+    &:hover {
+        background-color: $dark-purple;
+    }
+}

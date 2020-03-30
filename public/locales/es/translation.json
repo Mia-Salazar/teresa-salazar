@@ -61,5 +61,13 @@
       "alt": "Foto de Gonzalo Pareja",
       "text": "Teresa es una excelente profesional, desde el primer momento que la conocí me transmitió estar completamente comprometida con su trabajo e involucrada con las tareas a desempeñar. Es una persona muy agradable, organizada, y sabe formar equipo. Es de las mejores recruiters con quien he trabajado y estoy seguro de que aportará mucho valor en cualquier empresa en donde esté."
     }
+  },
+  "contact": {
+    "title": "Contacto",
+    "form": "Rellena el formulario",
+    "name": "Tu nombre",
+    "mail": "Tu email",
+    "message": "Escribe tu mensaje",
+    "cta": "Enviar"
   }
 }
