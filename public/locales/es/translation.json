@@ -26,19 +26,28 @@
   "article": {
     "cta": "Ver más",
     "article1": {
-      "title": "El Algoritmo de Apple Card es el Nuevo Test de Inteligencia"
+      "title": "El Algoritmo de Apple Card es el Nuevo Test de Inteligencia",
+      "text":"A estas alturas probablemente te hayas enterado. Apple Card la ha liado. Y mucho.",
+      "alt": "Tarjeta de apple"
     },
     "article2": {
-      "title": "7 seres de ultratumba que encontrarás en una oficina"
+      "title": "7 seres de ultratumba que encontrarás en una oficina",
+      "alt": "Fotografía de halloween",
+      "text": "Hay oficinas que parecen una casa del terror. Y es que puedes encontrarte seres salidos de una película de miedo. Como por ejemplo…"
     },
     "article3": {
-      "title": "Se Busca Madre Social: Los Peligros de la Tecnología en Recursos Humanos"
+      "title": "Se Busca Madre Social: Los Peligros de la Tecnología en Recursos Humanos",
+      "alt": "Hombre mirando un portátil",
+      "text": "Imagina que estás buscando empleo. Mientras visitas una web de ofertas, te encuentras una que te deja confuso. Y no por el salario, o por los requisitos, o por el tipo de tareas a realizar."
     },
     "article4": {
-      "title": "El lado oscuro del Scraping en Recruiting"
+      "title": "El lado oscuro del Scraping en Recruiting",
+      "alt": "Teresa durante una charla en la Pycones",
+      "text": "La tecnología ha revolucionado los recursos humanos. Técnicas como el scraping se utilizan hoy en día para encontrar el mejor talento de forma más rápida y efectiva que nunca."
     },
     "article5": {
-      "title": "El lado oscuro de la digitalización en recruiting"
+      "title": "El lado oscuro de la digitalización en recruiting",
+      "alt": "Teresa durante una charla en Open Sistemas"
     }
   },
   "opinion": {
@@ -64,6 +73,14 @@
   },
   "contact": {
     "title": "Contacto",
+    "form": "Rellena el formulario",
+    "name": "Tu nombre",
+    "mail": "Tu email",
+    "message": "Escribe tu mensaje",
+    "cta": "Enviar"
+  },
+  "speech": {
+    "title": "Charlas y publicaciones",
     "form": "Rellena el formulario",
     "name": "Tu nombre",
     "mail": "Tu email",

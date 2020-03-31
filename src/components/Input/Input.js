@@ -4,7 +4,7 @@ import './Input.scss'
 
 export const Input = ({ type, id, label, name, ...rest}) => {
     return (
-        <label className="input-container" for={id}>
+        <label className="input-container" htmlFor={id}>
         {label}
             <input type={type} placeholder={label} name={name} id={id} {...rest} className="input"/>
         </label>

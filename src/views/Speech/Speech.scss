@@ -1,0 +1,22 @@
+@import '../../App.scss';
+.my-masonry-grid {
+    width: auto;
+    display: flex;
+    margin: 50px 0 0 -16px;
+    padding: 0 0 0 20px;
+  }
+
+.my-masonry-grid_column {
+    padding: 16px;
+    background-clip: padding-box;
+}
+   
+
+.my-masonry-grid_column > article {
+    background: $light-gray;
+    margin-bottom: 30px;
+
+    @media (min-width: 768px){
+        margin-bottom: 32px;
+    }
+}

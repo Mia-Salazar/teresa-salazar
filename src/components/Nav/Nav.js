@@ -13,8 +13,7 @@ const Nav = ({menuVisible}) => {
       <ul className="nav__list">
         <li className="nav__item"><a className="nav__link">{t('nav.experience')}</a></li>
         <li className="nav__item"><a className="nav__link">{t('nav.education')}</a></li>
-        <li className="nav__item"><a className="nav__link">{t('nav.speech')}</a></li>
-        <li className="nav__item"><a className="nav__link">{t('nav.awards')}</a></li>
+        <li className="nav__item"><Link className="nav__link" to="/speech" label="Speech">{t('nav.speech')}</Link></li>
         <li className="nav__item"><Link className="nav__link" to="/contact" label="Contact">{t('nav.contact')}</Link></li>
       </ul>
       <ul className="nav__social">
