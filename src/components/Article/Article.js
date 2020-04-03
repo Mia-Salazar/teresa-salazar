@@ -10,7 +10,7 @@ export const Article = ({title, text, link, imageUrl}) => {
         <article className="article" style={{backgroundImage: `url(${imageUrl})` }}>
             <h4 className="article__title">{title}</h4>
             <p className="article__text">{text}</p>
-            <a className="article__link" href={link}>{t('article.cta')}</a>
+            <a className="article__link" href={link} target="_blank" rel="noreferrer noopener">{t('article.cta')}</a>
         </article>
     )
 }

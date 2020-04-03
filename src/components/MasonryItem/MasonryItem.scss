@@ -6,13 +6,17 @@
         padding: 6px;
     }
 
+    #page {
+        padding: 0;
+    }
+
     iframe {
         width: 100%;
         height: 200px;
     }
 
     &__text-container {
-        padding: 6px;
+        padding: 6px 6px 16px 6px;
     }
 
     &__img {
@@ -20,7 +24,7 @@
     }
 
     &__text {
-        margin-bottom: 24px;
+        margin-bottom: 32px;
     }
 
     &__title {
@@ -28,8 +32,16 @@
     }
 
     &__link {
-        color: $dark-purple;
+        margin-top: 8px;
+        padding: 10px;
+        color: $white;
         font-weight: bold;
         text-decoration: none;
+        background-color: $dark-purple;
+
+        &:hover {
+            background-color: $main-purple;
+        }
+
     }
 }

@@ -10,7 +10,7 @@ export const MasonryItem = ({title, text, alt, link, src, video, videoURL, ...re
     return (
         <article className="my-masonry-grid_column masonry-item">
             {video ? 
-            <iframe src={videoURL} frameBorder="0" allow="autoplay; encrypted-media" allowFullScreen></iframe> 
+            <iframe title={title} src={videoURL} frameBorder="0" allow="autoplay; encrypted-media" allowFullScreen scrolling="no" style={{padding:0}} ></iframe> 
             :(
                 <figure className="masonry-item__img-container">
                     <img src={src} className="masonry-item__img" alt={alt} />
@@ -20,7 +20,7 @@ export const MasonryItem = ({title, text, alt, link, src, video, videoURL, ...re
             <div className="masonry-item__text-container">
                 <h4 className="masonry-item__title">{title}</h4>
                 <p className="masonry-item__text">{text}</p>
-                <a className="masonry-item__link" href={link}>{t('article.cta')}</a>
+                <a className="masonry-item__link" href={link} target="_blank" rel="noreferrer noopener">{t('article.cta')}</a>
             </div>
         </article>
     )

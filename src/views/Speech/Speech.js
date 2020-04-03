@@ -6,6 +6,7 @@ import MasonryItem from '../../components/MasonryItem/MasonryItem'
 import cardImage from '../../assets/images/card-light.png'
 import pumpkinImage from '../../assets/images/halloween-light.png'
 import wantedImage from '../../assets/images/wanted-light.png'
+import coronaImage from '../../assets/images/corona.png'
 import './Speech.scss'
 
 const Speech = () => {
@@ -24,6 +25,7 @@ const Speech = () => {
     {id: 3, name: t('article.article3.title'), src: wantedImage, text: t('article.article3.text'), alt: t('article.article1.alt'), link: "https://www.linkedin.com/pulse/se-busca-madre-social-los-peligros-de-la-tecnolog%C3%ADa-teresa/", video: ''},
     {id: 4, name: t('article.article1.title'), src: cardImage, text: t('article.article1.text'), alt: t('article.article1.alt'), link: "https://medium.com/@tsalazargr/el-algoritmo-de-apple-card-es-el-nuevo-test-de-inteligencia-877114351efa", video: ''},
     {id: 5, name: t('article.article5.title'), text: '', alt: t('article.article1.alt'), link: "https://www.facebook.com/85638467171/videos/318707818747458/?t=2", video: 'https://www.facebook.com/plugins/video.php?href=https%3A%2F%2Fwww.facebook.com%2F85638467171%2Fvideos%2F318707818747458%2F&show_text=0&width=560'},
+    {id: 6, name: t('article.article6.title'), src: coronaImage, text: t('article.article6.text'), alt: t('article.article6.alt'), link: "https://medium.com/@tsalazargr/el-humor-en-los-tiempos-del-coronavirus-2efa7ec8ddfe", video: ''},
   ];
 
   items = items.map(function(item) {
@@ -33,7 +35,7 @@ const Speech = () => {
   return (
     <section className="speech">
       <Title title={t('speech.title')} />
-      <p className="text">{t('header.about')}</p>
+      <p className="text">{t('speech.subtitle')}</p>
       <Masonry
         breakpointCols={breakpointColumnsObj}
         className="my-masonry-grid"

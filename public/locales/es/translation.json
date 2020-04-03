@@ -2,7 +2,8 @@
   "header":{
     "img": "Foto mia con Alan Turing",
     "meet": "Sígueme",
-    "about": "¡Encantada de conocerte! Soy una persona chachi chachi chachi de las les gusta hacer cosas muy chachis. Holi hoita holoso de todos los holocaustos"
+    "about": "Érase una vez psicóloga con una gran pasión: los cerebros. Ella intentó hacer de esta afición un trabajo, especializándose en el campo de la neurociencia y colaborando en varios laboratorios experimentales. Sin embargo, con el tiempo descubrió que en España no se puede vivir de la investigación. ",
+    "aboutTwo": "Así fue como terminó dedicándose a sus dos otras pasiones: las personas y la tecnologías. Ahora trabaja como técnico de selección IT. Si usted tiene algún problema y se la encuentra, quizá ella pueda contratarle..."
   },
   "nav": {
     "experience": "Experiencia",
@@ -48,6 +49,11 @@
     "article5": {
       "title": "El lado oscuro de la digitalización en recruiting",
       "alt": "Teresa durante una charla en Open Sistemas"
+    },
+    "article6": {
+      "title": "El Humor en los Tiempos del Coronavirus",
+      "alt": "Meme de coronavirus",
+      "text": "Debo confesar algo: tengo un humor muy poco oportuno. Mi chiste favorito es de bebés muertos. Cuando me gritan me da la risa tonta. Y cuando hay una catástrofe mundial como el Covid19… me paso el día repartiendo memes."
     }
   },
   "opinion": {
@@ -69,10 +75,17 @@
       "job": "COO at Avansis",
       "alt": "Foto de Gonzalo Pareja",
       "text": "Teresa es una excelente profesional, desde el primer momento que la conocí me transmitió estar completamente comprometida con su trabajo e involucrada con las tareas a desempeñar. Es una persona muy agradable, organizada, y sabe formar equipo. Es de las mejores recruiters con quien he trabajado y estoy seguro de que aportará mucho valor en cualquier empresa en donde esté."
+    },
+    "four": {
+      "name": "Irene Castro Sánchez",
+      "job": "Talent Acquisition Expert / Recruiter en OpenSistemas",
+      "alt": "Foto de Irene Castro",
+      "text": "Teresa es, sin lugar a dudas, la mejor jefa que he tenido. Más allá de su indiscutible calidad profesional, es una compañera con un sentido de la justicia ejemplar, buscando la equidad dentro de su equipo, ofreciendo un trato amable, paciente, generoso y divertido. Trabajar bajo su mando ha sido un autentico placer, ojalá todos los managers fuesen como ella."
     }
   },
   "contact": {
     "title": "Contacto",
+    "subtitle": "¿Dudas?¿Preguntas?¿Cartas bomba? Puedes contactar conmigo a través de este formulario o en mis redes sociales.",
     "form": "Rellena el formulario",
     "name": "Tu nombre",
     "mail": "Tu email",
@@ -81,10 +94,60 @@
   },
   "speech": {
     "title": "Charlas y publicaciones",
+    "subtitle": "Me gusta compartir lo que pienso. Por eso he escrito varios artículos e impartido charlas sobre el mundo de la tecnología y los recursos humanos.",
     "form": "Rellena el formulario",
     "name": "Tu nombre",
     "mail": "Tu email",
     "message": "Escribe tu mensaje",
     "cta": "Enviar"
+  },
+  "education": {
+    "title": "Formación",
+    "subtitle": "Soy una persona muy curiosa a la que le encanta aprender cosas nuevas. Estos son algunos de los cursos que he realizado.",
+    "more": "Más información",
+    "now": "Actualidad",
+    "one": {
+      "title": "Premio Extraordinario Fin de Master",
+      "subtitle": "Universida de Sevilla",
+      "year": "2015",
+      "more": "Máster en Estudios Avanzados en Cerebro y Conducta"
+    },
+    "two": {
+      "title": "Máster en Estudios Avanzados en Cerebro y Conducta",
+      "subtitle": "Universida de Sevilla",
+      "year": "2013-2015",
+      "more": "Delegación de alumnos"
+    },
+    "three": {
+      "title": "Master en Dirección y Gestión de Recursos Humanos",
+      "subtitle": "Universida Camilo José Cela",
+      "year": "2015-2017"
+    },
+    "four": {
+      "title": "Certificate Of Proficiency In English (CPE - C2)",
+      "subtitle": "University of Cambridge",
+      "year": "2013",
+      "more": "Certificado del máximo nivel de inglés ofrecido por la institución."
+    },
+    "five": {
+      "title": "Licenciatura en Psicología",
+      "subtitle": "Universida de Sevilla",
+      "year": "2007-2013"
+    },
+    "six": {
+      "title": "Infojobs para recruiters",
+      "subtitle": "PSS",
+      "year": "2016",
+      "more": "Posicionamiento y optimización de la oferta, SEO, uso de las redes sociales, búsqueda en la base de datos de CVs, opciones avanzadas. Selección de perfiles técnicos."
+    },
+    "seven": {
+      "title": "Curso de Introducción al Desarrollo Web (Primera Parte)",
+      "subtitle": "Universitat d'Alacant",
+      "year": "2016",
+      "more": "Curso de introducción al desarrollo web front-end en colaboración con Google - Actívate."
+    }
+  },
+  "experience":{
+    "subtitle": "Tengo experiencia en la selección de perfiles técnicos dentro del ámbito del Big Data, Machine Learning, Desarrollo Web, E-commerce y OpenSource, además de en la gestión de equipos."
   }
 }

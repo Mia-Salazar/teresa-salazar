@@ -38,13 +38,21 @@
 
     &__social {
         display: flex;
-        margin-top: 30px;
-        padding-top: 20px;
-        border-top: 1px solid $white;
         list-style-type: none;
     }
 
-    &__author {
+    &__body {
+        margin-top: 30px;
+        padding-top: 30px;
+        border-top: 1px solid $white;
+
+        @media (min-width: 768px) {
+            display: flex;
+            justify-content: space-between;
+        }
+    }
+
+    &__author, &__github {
         font-size: 10px;
         color: $white;
 
@@ -52,6 +60,12 @@
             color: $white;
             font-weight: bold;
             text-decoration: none;
+        }
+    }
+
+    &__author{
+        @media (min-width: 768px){
+            margin-top: 0;
         }
     }
 }

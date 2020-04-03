@@ -70,7 +70,7 @@ $sans-serif-family: 'Montserrat', sans-serif;
 $fs-xs: 14px;
 $fs-base: 16px;
 $fs-md: 18px; 
-$fa-lg: 22px;
+$fs-lg: 22px;
 $fs-2xl: 32px;
 $fs-3xl: 42px;
 $fs-4xl: 52px;
@@ -87,7 +87,7 @@ $fs-4xl: 52px;
 
 /*General styles*/
 .text {
-    max-width: 600px;
+    max-width: 650px;
     margin: 8px auto;
     padding: 0 20px;
     color: $dark-purple;
@@ -106,7 +106,7 @@ $fs-4xl: 52px;
 
     @media (max-width: 767px){
         margin: 40px 20px 20px 20px;
-        font-size: $fa-lg;
+        font-size: $fs-lg;
     }
 }    
 

@@ -1,25 +1,31 @@
-import React from 'react'
+import React, { Suspense } from 'react'
 import {Switch,Route} from "react-router-dom";
+import  ScrollToTop from './utils/ScrollToTop';
 import Header from '../src/components/Header/Header'
 import Home from '../src/views/Home/Home'
 import Contact from '../src/views/Contact/Contact'
+import Education from '../src/views/Education/Education'
 import Speech from '../src/views/Speech/Speech'
 import Footer from '../src/components/Footer/Footer'
 import './App.scss'
 
 const App = () => {
   return (
-	<div className="app-container">
-		<Header/>
-		<main className="main">
-			<Switch>
-				<Route exact path="/" component={Home} />
-				<Route exact path="/contact" component={Contact}/>
-				<Route exact path="/speech" component={Speech}/>
-			</Switch>
-			<Footer/>
-		</main>
-	</div>
+	<Suspense fallback=''>
+		<div className="app-container">
+			<ScrollToTop />
+			<Header/>
+			<main className="main">
+				<Switch>
+					<Route exact path="/" component={Home} />
+					<Route exact path="/contacto" component={Contact}/>
+					<Route exact path="/charlas" component={Speech}/>
+					<Route exact path="/formacion" component={Education}/>
+				</Switch>
+				<Footer/>
+			</main>
+		</div>
+	</Suspense>
 
   );
 }

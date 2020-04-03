@@ -1,0 +1,43 @@
+@import '../../App.scss';
+
+.education {
+    margin: 40px auto;
+
+    &__timeline-container{
+        margin: 40px auto 0 auto;
+        padding: 20px;
+        max-width: 800px;
+    }
+
+    &__year {
+        position:relative;
+        width: fit-content;
+        margin: auto auto 50px auto;
+        padding: 14px 24px;
+        color: $white;
+        font-size: $fs-lg;
+        background-color: $main-purple;
+
+        &:after {
+            @media (min-width: 1024px){
+                content: '';
+                position: absolute;
+                left: 50%;
+                bottom:-50px;
+                display: block;
+                height: 50px;
+                width: 6px;
+                background-color: $dark-purple;   
+            }
+        }
+
+        &--last {
+            margin-top: 50px;
+
+            &:after {
+                top:-50px;
+                bottom: unset;
+            }
+        }
+    }
+}

@@ -13,8 +13,10 @@ import pumpkinImage from '../../assets/images/halloween.jpg'
 import wantedImage from '../../assets/images/wanted.jpg'
 import pyconesImage from '../../assets/images/pycones.JPG'
 import openImage from '../../assets/images/open.JPG'
+import coronaImage from '../../assets/images/corona-dark.png'
 import juan from '../../assets/images/juan.jpg'
 import luis from '../../assets/images/luis.jpg'
+import irene from '../../assets/images/irene.jpg'
 import gonzalo from '../../assets/images/gonzalo.jpg'
 
 const Home = () => {
@@ -43,8 +45,9 @@ const Home = () => {
   return (
     <section className="home">
       <Title title={t('home.title')} />
-      <p className="text">Soy <span className="home__personality"><TextLoop springConfig={{ stiffness: 180, damping: 8 }} children={["Teresa Salazar", "Human Resources", "freak as hell", "karaoke fan"]} /></span></p>
+      <div className="text">Soy <span className="home__personality"><TextLoop springConfig={{ stiffness: 180, damping: 8 }} children={["Teresa Salazar", "Human Resources", "friki as hell", "karaoke fan", "Recruiter"]} /></span></div>
       <p className="text">{t('header.about')}</p>
+      <p className="text">{t('header.aboutTwo')}</p>
       <h3 className="leading-text">{t('home.project')}</h3>
       <div className="home__projects">
       <Carousel responsive={responsive} showDots={true} infinite={true} containerClass="home__carousel" keyBoardControl={true} dotListClass="home__carousel-dot">
@@ -53,10 +56,12 @@ const Home = () => {
         <Article title={t('article.article3.title')} link="https://www.linkedin.com/pulse/se-busca-madre-social-los-peligros-de-la-tecnolog%C3%ADa-teresa/" imageUrl={wantedImage} />
         <Article title={t('article.article4.title')} link="https://www.youtube.com/watch?v=Z7gQGcVtBiM/" imageUrl={pyconesImage} />
         <Article title={t('article.article5.title')} link="https://www.facebook.com/85638467171/videos/318707818747458/?t=2" imageUrl={openImage} />
+        <Article title={t('article.article6.title')} link="https://medium.com/@tsalazargr/el-humor-en-los-tiempos-del-coronavirus-2efa7ec8ddfe" imageUrl={coronaImage} />
       </Carousel>;
       </div>
       <h3 className="leading-text leading-text--review">{t('opinion.title')}</h3>
       <div className="home__reviews">
+        <Review title={t('opinion.four.name')} src={irene} alt={t('opinion.four.alt')} job={t('opinion.four.job')} text={t('opinion.four.text')}/>
         <Review title={t('opinion.one.name')} src={juan} alt={t('opinion.one.alt')} job={t('opinion.one.job')} text={t('opinion.one.text')}/>
         <Review title={t('opinion.two.name')} src={luis} alt={t('opinion.two.alt')} job={t('opinion.two.job')} text={t('opinion.two.text')}/>
         <Review title={t('opinion.three.name')} src={gonzalo} alt={t('opinion.three.alt')} job={t('opinion.three.job')} text={t('opinion.three.text')}/>

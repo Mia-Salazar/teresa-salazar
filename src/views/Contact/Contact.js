@@ -11,12 +11,12 @@ const Contact = () => {
   return (
     <section className="contact">
       <Title title={t('contact.title')} />
-      <p className="text">{t('header.about')}</p>
+      <p className="text">{t('contact.subtitle')}</p>
       <h2 className="leading-text">{t('contact.form')}</h2>
       <form className="contact__form" action="https://formspree.io/t.salazargr@gmail.com" method="POST">
         <Input label={t('contact.name')} id="name" type="text" name="name" />
         <Input label={t('contact.mail')} id="mail" type="email" name="_replyto" required />
-        <label className="contact__textarea-container" for="message">
+        <label className="contact__textarea-container" htmlFor="message">
         {t('contact.message')}
           <textarea className="contact__textarea" name="message" id="message"></textarea>
         </label>
