@@ -148,6 +148,57 @@
     }
   },
   "experience":{
-    "subtitle": "Tengo experiencia en la selección de perfiles técnicos dentro del ámbito del Big Data, Machine Learning, Desarrollo Web, E-commerce y OpenSource, además de en la gestión de equipos."
+    "title": "Experiencia",
+    "subtitle": "Tengo experiencia en la selección de perfiles técnicos dentro del ámbito del Big Data, Machine Learning, Desarrollo Web, E-commerce y OpenSource, además de en la gestión de equipos.",
+    "one": {
+      "title": "Talent Acquisition Manager / Recruiter IT / Selección",
+      "compary": "Open Sistemas",
+      "year": "Agosto 2018 - Actualidad",
+      "description": "Responsable del departamento de selección de talento dentro de las áreas Big Data, Machine Learning, Open Source y desarrollo de software.",
+      "descriptionTwo": "Como Talent Acquisition Manager lidero un equipo de recruiters, además de participar de manera activa en la selección. Mis funciones incluyen:",
+      "list": "Búsqueda de perfiles especializados: Data Engineers, Data Scientists, Data Architects, Expertos en computación cuántica, criptógrafos, desarrolladores web, maquetadores, product owners, scrum masters...",
+      "listTwo": "Entrevistas técnicas y entrevista por competencias",
+      "listThree": "Publicación de ofertas en portales de empleo y acciones en las redes sociales para mejorar nuestra marca como empleadores",
+      "listFour": "Asistencia a eventos como ponente, impartiendo charlas sobre tecnología, transformación digital y recursos humanos",
+      "listFive": "Colaboración en el plan estratégico para traer talento internacional a España",
+      "listSix": "Gestión de equipo: liderazgo, asignación de tareas, formación de los integrantes del departamento. control de KPIs...",
+      "listSeven": "Intermediación con clientes para la toma de requisitos y concertar las entrevistas finales",
+      "listEight": "Negociación salarial y gestión de la documentación para la incorporación y la firma del contrato.",
+      "listNine": "Actualizar el CRM interno de la compañía",
+      "listTen": "Coordinación con proveedores externos, headhunters y agencias de subcontratación"
+    },
+    "two": {
+      "title": "Técnico de selección de personal informático / Reclutador / Recruiter / RRHH / Selección IT",
+      "compary": "PSS Tecnologias de la Informacion",
+      "year": "Octubre 2016 - Agosto 2018",
+      "description": "Como técnico de selección de personal técnico dentro del departamento de RRHH de PSS realizo el ciclo completo de selección IT.  Mis responsabilidades incluyen:",
+      "list": "Toma de requisitos para selección de personal informático. Reclutar perfiles de desarrollo, ecommerce, sistemas y Big Data.",
+      "listTwo": "Publicar ofertas en infojobs, tecnoempleo, linkedin, facebook y twitter para atraer el mejor talento.",
+      "listThree": "Manejar alto volumen de peticiones tanto para outsourcing (Cliente final e integradoras) como para vacantes internas.",
+      "listFour": "Negociación salarial. ",
+      "listFive": "Gestión de la documentación para la incorporación y la firma del contrato. Onboarding.",
+      "listSix": "Entrevistas por teléfono, en persona y a través de skype. Entrevista por competencias.",
+      "listSeven": "Pruebas de inglés oral para perfiles internacionales. ",
+      "listEight": "Contactar con distintas instituciones para realizar convenios de prácticas. Contactar con agencias, ETT y consultoras para externalizar determinados procesos de selección.",
+      "listNine": "Mejorar nuestra marca como empleador mediante acciones en las redes sociales.",
+      "listTen": "Asistir a conferencias y eventos en representación de la empresa.",
+      "listEleven": "Impartir cursos de formación sobre selección IT a nivel interno.",
+      "listTwelve": "Colaboración en el equipo de implantación de nuestro nuevo ERP."
+    },
+    "three": {
+      "title": "Técnico de selección de personal informático / Selección IT / IT Recruiter",
+      "compary": "Devoteam Drago",
+      "year": "Febrero 2016 - Octubre 2016",
+      "description": "Cómo técnico de selección IT en el departamento de RRHH realizo el ciclo completo de selección de personal informático, trabajando siempre para cliente final. Mis responsabilidades incluyen: ",
+      "list": "Definir el perfil a buscar junto al futuro gerente de la persona contratada, redactar la oferta de trabajo y publicarla en portales de empleo como infojobs, tecnoempleo, jobsandtalent, primerempleo, portalento, konzerta, SEPE...",
+      "listTwo": "Entrevistas telefónicas y en persona, entrevista por competencias.",
+      "listThree": "Tramitación interna de la incorporación y onboarding.",
+      "listFour": "Tareas administrativas derivadas del puesto: gestión de la documentación de PRL, gestión del plan de retribución flexible...",
+      "listFive": "Selección IT de perfiles de desarrollo, sistemas, Big Data y Business Intelligence.",
+      "listSix": "Nivel de inglés bilingüe. Utilizo el inglés con frecuencia para: ",
+      "listSeven": "Realizar pruebas orales de inglés a los candidatos",
+      "listEight": "Traducción de currículos y otra documentación para el cliente",
+      "listNine": "Labores de interprete durante reuniones con clientes extranjeros",
+    }
   }
 }

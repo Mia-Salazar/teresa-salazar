@@ -5,6 +5,7 @@ import Header from '../src/components/Header/Header'
 import Home from '../src/views/Home/Home'
 import Contact from '../src/views/Contact/Contact'
 import Education from '../src/views/Education/Education'
+import Experience from '../src/views/Experience/Experience'
 import Speech from '../src/views/Speech/Speech'
 import Footer from '../src/components/Footer/Footer'
 import './App.scss'
@@ -21,6 +22,7 @@ const App = () => {
 					<Route exact path="/contacto" component={Contact}/>
 					<Route exact path="/charlas" component={Speech}/>
 					<Route exact path="/formacion" component={Education}/>
+					<Route exact path="/experiencia" component={Experience}/>
 				</Switch>
 				<Footer/>
 			</main>
