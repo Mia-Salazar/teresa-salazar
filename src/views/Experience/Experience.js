@@ -1,16 +1,20 @@
 import React, {useState} from 'react'
 import { useTranslation } from 'react-i18next'
 import Title from '../../components/Title/Title'
+import Open from '../../components/ExperienceJob/Open'
+import Pss from '../../components/ExperienceJob/Pss'
+import Drago from '../../components/ExperienceJob/Drago'
 import ExperienceItem from '../../components/ExperienceItem/ExperienceItem'
 import './Experience.scss'
+
+import openLogo from '../../assets/images/open-logo.png'
+import pssLogo from '../../assets/images/pss-logo.png'
+import dragoLogo from '../../assets/images/drago-logo.png'
 
 const Experience = () => {
   const [active, setActive] = useState(false)
   const [activePss, setActivePss] = useState(false)
   const [activeDrago, setActiveDrago] = useState(false)
-  // const toggleActive = () => {
-  //   setActive(!active)
-  // }
 
   const toggleActive = type => {
     if (type === 'pss') {
@@ -41,10 +45,17 @@ const Experience = () => {
       <Title title={t('experience.title')} />
       <p className="text">{t('experience.subtitle')}</p>
       <h2 className="leading-text">{t('experience.click')}</h2>
-      <article className="experience__mosaic">
-        <div className="experience__mosaic-image"></div>
-        <div className="experience__mosaic-text"></div>
-
+      <article className={active | activePss | activeDrago ? "experience__mosaic experience__mosaic--active" : "experience__mosaic" }>
+        <figure className={active ? "experience__mosaic-image open" : activeDrago ? "experience__mosaic-image drago" : activePss ? "experience__mosaic-image pss" : "experience__mosaic-image" }>
+          <img class="experience__logo" src={active ? openLogo : activeDrago ? dragoLogo : activePss ? pssLogo : '' } alt={t('experience.alt')} />
+        </figure>
+        <div className="experience__mosaic-text">
+          {
+          active ? <Open active={active}/> :
+          activePss ? <Pss activePss={activePss}/> :
+          activeDrago ? <Drago activeDrago={activeDrago}/> : ''
+          }
+        </div>
       </article>
       <div className="experience__item-container">
         <ExperienceItem onClick={() => toggleActive('open')} active={active} title={t('experience.one.title')} year={t('experience.one.year')} subtitle={t('experience.one.company')}>

@@ -1,15 +1,8 @@
-import React, {useState} from 'react'
+import React from 'react'
 import PropTypes from 'prop-types'
 import './ExperienceItem.scss'
 
 export const ExperienceItem = ({title, subtitle, year, children, active, onClick, activePss, activeDrago }) => {
-    // const [active, setActive] = useState(false)
-    // const toggleActive = () => {
-    //     setActive(!active)
-       
-    // }
-
-
     return (
         <article className={active | activeDrago | activePss ? "experience-item active" : "experience-item" } onClick={onClick}>
             <h3 className="experience-item__title">{title}</h3>
