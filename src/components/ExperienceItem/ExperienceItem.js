@@ -1,36 +1,32 @@
-import React from 'react'
+import React, {useState} from 'react'
 import PropTypes from 'prop-types'
-import classNames from 'classnames';
 import './ExperienceItem.scss'
 
-export const ExperienceItem = ({title, subtitle, year, active, className, children }) => {
-    const classes = classNames('timeline-item', active, className)
-    // const [openDropdown, setOpenDropdown] = useState(false)
-    // const toggleDropdown = () => {
-    //     setOpenDropdown(!openDropdown)
-    //   }
+export const ExperienceItem = ({title, subtitle, year, children, active, onClick, activePss, activeDrago }) => {
+    // const [active, setActive] = useState(false)
+    // const toggleActive = () => {
+    //     setActive(!active)
+       
+    // }
 
 
     return (
-        <article className={classes}>
-            <div className="experience-item__text-container">
-                <h3 className="experience-item__title">{title}</h3>
-                <p className="experience-item__subtitle">{subtitle}</p>
-                <p className="experience-item__year">{year}</p>
-                <div>
-                    {children}
-                </div>
+        <article className={active | activeDrago | activePss ? "experience-item active" : "experience-item" } onClick={onClick}>
+            <h3 className="experience-item__title">{title}</h3>
+            <p className="experience-item__subtitle">{subtitle}</p>
+            <p className="experience-item__year">{year}</p>
+            <div className={active | activeDrago | activePss ? "experience-item__info experience-item__info--active" : "experience-item__info" } >
+                {children}
             </div>
         </article>
     )
 }
 
 ExperienceItem.propTypes = {
-    className: PropTypes.string,
     title: PropTypes.string,
     year: PropTypes.string,
     subtitle: PropTypes.string,
-    active: PropTypes.string,
+    onClick: PropTypes.func,
     children: PropTypes.node
 }
 

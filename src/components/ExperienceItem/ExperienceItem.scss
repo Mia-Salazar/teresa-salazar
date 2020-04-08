@@ -1,6 +1,53 @@
 @import '../../App.scss';
 
 .experience-item {
+    background-color: $light-gray;
+    margin-top: 30px;
+    padding: 16px;
+    cursor: pointer;
+    transition: .8s ease-in-out;
 
+    @media (min-width: 1024px){
+        margin: 0;
+    }
 
+    &.active {
+        @media (min-width: 1024px){
+            transform: scale(1.10);
+            box-shadow: 2px 2px 16px 0 rgba(0,0,0,0.1);
+        }
+    }
+
+    &__info {
+        display: none;
+
+        &--active {
+            @media (max-width: 1023px){
+                display: block;
+            }
+        }
+    }
+
+    &__list, &__text {
+        line-height: 22px;
+
+        li {
+            margin-bottom: 8px;
+            line-height: 22px;
+        }
+    }
+
+    &__title {
+        margin: 0 0 8px 0;
+    }
+
+    &__subtitle {
+        margin: 8px 0;
+    }
+
+    &__year {
+        margin-top: 8px;
+        margin-bottom: 0;
+        color: $medium-gray;
+    }
 }

@@ -17,10 +17,10 @@ const Nav = ({menuVisible}) => {
         <li className="nav__item"><Link className="nav__link" to="/contacto" label="Contact">{t('nav.contact')}</Link></li>
       </ul>
       <ul className="nav__social">
-        <SocialLink href="https://www.linkedin.com/in/seleccionit/" icon="linkedin-box" fill={'fill'} size="2x" />
-        <SocialLink href="https://twitter.com/tsalazargr" icon="twitter" fill={'fill'} size="2x" />
-        <SocialLink href="https://medium.com/@tsalazargr" icon="medium" fill={'fill'} size="2x" />
-        <SocialLink href="https://github.com/TSalazargr" icon="github" fill={'fill'}  size="2x" />
+        <SocialLink href="https://www.linkedin.com/in/seleccionit/" icon="linkedin-box" fill={'fill'} size="2x" aria={t('footer.linkedin')} />
+        <SocialLink href="https://twitter.com/tsalazargr" icon="twitter" fill={'fill'} size="2x" aria={t('footer.twitter')} />
+        <SocialLink href="https://medium.com/@tsalazargr" icon="medium" fill={'fill'} size="2x" aria={t('footer.medium')} />
+        <SocialLink href="https://github.com/TSalazargr" icon="github" fill={'fill'}  size="2x" aria={t('footer.github')} />
       </ul>
     </nav>
   );

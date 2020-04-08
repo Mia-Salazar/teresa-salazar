@@ -1,4 +1,12 @@
 @import '../../App.scss';
+.speech{
+    @media (min-width: 1200px){
+        max-width: 1200px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+}
+
 .my-masonry-grid {
     width: auto;
     display: flex;

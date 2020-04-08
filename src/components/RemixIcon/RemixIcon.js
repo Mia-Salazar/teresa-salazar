@@ -12,7 +12,7 @@ export const RemixIcon = ({ type, size = '1x', fill = 'line', color = 'black', c
 
 RemixIcon.propTypes = {
     className: PropTypes.string,
-    type: PropTypes.string,
+    type: PropTypes.string.isRequired,
     color: PropTypes.string,
     size: PropTypes.string,
     fill: PropTypes.string,

@@ -12,10 +12,10 @@ export const Input = ({ type, id, label, name, ...rest}) => {
 }
 
 Input.propTypes = {
-    type: PropTypes.string,
-    label: PropTypes.string,
-    id: PropTypes.string,
-    name: PropTypes.string,
+    type: PropTypes.string.isRequired,
+    label: PropTypes.string.isRequired,
+    id: PropTypes.string.isRequired,
+    name: PropTypes.string.isRequired,
 }
 
 Input.displayName = 'Input'

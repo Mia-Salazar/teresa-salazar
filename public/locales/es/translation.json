@@ -22,7 +22,11 @@
   },
   "footer": {
     "made": "Hecho por",
-    "github": "Proyecto en"
+    "link": "Proyecto en",
+    "linkedin": "Visita mi linkedin",
+    "github": "Visita mi github",
+    "twitter": "Visita mi twitter",
+    "medium": "Visita mi perfil de medium"
   },
   "article": {
     "cta": "Ver más",
@@ -60,24 +64,28 @@
     "title": "Lo que piensan de mí",
     "one": {
       "name": "Juan Manuel Pérez",
+      "aria": "Visita el perfil de Juan",
       "job": "Devops / System Engineer en Amaris",
       "alt": "Foto de Juan Manuel Pérez",
       "text": "Una de las entrevistadora más atenta y metódica que tiene siempre controlado mi perfil cuando voy a preguntar el estado de mis candidaturas. Una pena que no coincida trabajar con ella visto esfuerzo que ha puesto en intentar que el proceso salga adelante. Espero poder volver a contar con ella en mis futuras búsquedas de empleo"
     },
     "two": {
       "name": "Luis Vidaechea Benito",
+      "aria": "Visita el perfil de Luis",
       "job": "Scrum Master & Agile Coach en Entelgy",
       "alt": "Foto de Luis Vidaechea",
       "text": "Teresa es una reclutadora excepcional, muy involucrada y apasionada de su trabajo. He tenido la suerte de estar en un par de procesos de selección con ella y solo puedo decir que el trato recibido fue increíble, muy atenta y cercana."
     },
     "three": {
       "name": "Gonzalo Pareja Bolaños",
+      "aria": "Visita el perfil de Gonzalo",
       "job": "COO at Avansis",
       "alt": "Foto de Gonzalo Pareja",
       "text": "Teresa es una excelente profesional, desde el primer momento que la conocí me transmitió estar completamente comprometida con su trabajo e involucrada con las tareas a desempeñar. Es una persona muy agradable, organizada, y sabe formar equipo. Es de las mejores recruiters con quien he trabajado y estoy seguro de que aportará mucho valor en cualquier empresa en donde esté."
     },
     "four": {
       "name": "Irene Castro Sánchez",
+      "aria": "Visita el perfil de Irene",
       "job": "Talent Acquisition Expert / Recruiter en OpenSistemas",
       "alt": "Foto de Irene Castro",
       "text": "Teresa es, sin lugar a dudas, la mejor jefa que he tenido. Más allá de su indiscutible calidad profesional, es una compañera con un sentido de la justicia ejemplar, buscando la equidad dentro de su equipo, ofreciendo un trato amable, paciente, generoso y divertido. Trabajar bajo su mando ha sido un autentico placer, ojalá todos los managers fuesen como ella."
@@ -149,11 +157,13 @@
   },
   "experience":{
     "title": "Experiencia",
+    "info": "Más info",
+    "click": "Clica para más información",
     "subtitle": "Tengo experiencia en la selección de perfiles técnicos dentro del ámbito del Big Data, Machine Learning, Desarrollo Web, E-commerce y OpenSource, además de en la gestión de equipos.",
     "one": {
       "title": "Talent Acquisition Manager / Recruiter IT / Selección",
-      "compary": "Open Sistemas",
-      "year": "Agosto 2018 - Actualidad",
+      "company": "Open Sistemas",
+      "year": "Ago 2018 - Actualidad",
       "description": "Responsable del departamento de selección de talento dentro de las áreas Big Data, Machine Learning, Open Source y desarrollo de software.",
       "descriptionTwo": "Como Talent Acquisition Manager lidero un equipo de recruiters, además de participar de manera activa en la selección. Mis funciones incluyen:",
       "list": "Búsqueda de perfiles especializados: Data Engineers, Data Scientists, Data Architects, Expertos en computación cuántica, criptógrafos, desarrolladores web, maquetadores, product owners, scrum masters...",
@@ -169,8 +179,8 @@
     },
     "two": {
       "title": "Técnico de selección de personal informático / Reclutador / Recruiter / RRHH / Selección IT",
-      "compary": "PSS Tecnologias de la Informacion",
-      "year": "Octubre 2016 - Agosto 2018",
+      "company": "PSS Tecnologias de la Informacion",
+      "year": "Oct 2016 - Ago 2018",
       "description": "Como técnico de selección de personal técnico dentro del departamento de RRHH de PSS realizo el ciclo completo de selección IT.  Mis responsabilidades incluyen:",
       "list": "Toma de requisitos para selección de personal informático. Reclutar perfiles de desarrollo, ecommerce, sistemas y Big Data.",
       "listTwo": "Publicar ofertas en infojobs, tecnoempleo, linkedin, facebook y twitter para atraer el mejor talento.",
@@ -187,8 +197,8 @@
     },
     "three": {
       "title": "Técnico de selección de personal informático / Selección IT / IT Recruiter",
-      "compary": "Devoteam Drago",
-      "year": "Febrero 2016 - Octubre 2016",
+      "company": "Devoteam Drago",
+      "year": "Feb 2016 - Oct 2016",
       "description": "Cómo técnico de selección IT en el departamento de RRHH realizo el ciclo completo de selección de personal informático, trabajando siempre para cliente final. Mis responsabilidades incluyen: ",
       "list": "Definir el perfil a buscar junto al futuro gerente de la persona contratada, redactar la oferta de trabajo y publicarla en portales de empleo como infojobs, tecnoempleo, jobsandtalent, primerempleo, portalento, konzerta, SEPE...",
       "listTwo": "Entrevistas telefónicas y en persona, entrevista por competencias.",
@@ -198,7 +208,7 @@
       "listSix": "Nivel de inglés bilingüe. Utilizo el inglés con frecuencia para: ",
       "listSeven": "Realizar pruebas orales de inglés a los candidatos",
       "listEight": "Traducción de currículos y otra documentación para el cliente",
-      "listNine": "Labores de interprete durante reuniones con clientes extranjeros",
+      "listNine": "Labores de interprete durante reuniones con clientes extranjeros"
     }
   }
 }

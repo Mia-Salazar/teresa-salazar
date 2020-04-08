@@ -18,7 +18,7 @@ const Header = () => {
       <Link to="/" label="Home" className="header__img-frame">
         <img className="header__img" src={foto} alt={t('header.img')} />
       </Link>
-      <Link to="/" label="Home" className="header__square-container">
+      <Link to="/" label="Home" className="header__square-container" aria-label="Home">
         <span className="header__square header__square--back"></span>
         <span className="header__square header__square--front"></span>
       </Link>

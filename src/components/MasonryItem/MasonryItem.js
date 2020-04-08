@@ -29,7 +29,7 @@ export const MasonryItem = ({title, text, alt, link, src, video, videoURL, ...re
 MasonryItem.propTypes = {
     title: PropTypes.string.isRequired,
     text: PropTypes.string,
-    alt: PropTypes.string,
+    alt: PropTypes.string.isRequired,
     videoURL: PropTypes.string,
     src: PropTypes.string,
     video: PropTypes.bool,
