@@ -47,7 +47,7 @@ const Experience = () => {
       <h2 className="leading-text">{t('experience.click')}</h2>
       <article className={active | activePss | activeDrago ? "experience__mosaic experience__mosaic--active" : "experience__mosaic" }>
         <figure className={active ? "experience__mosaic-image open" : activeDrago ? "experience__mosaic-image drago" : activePss ? "experience__mosaic-image pss" : "experience__mosaic-image" }>
-          <img class="experience__logo" src={active ? openLogo : activeDrago ? dragoLogo : activePss ? pssLogo : '' } alt={t('experience.alt')} />
+          <img className="experience__logo" src={active ? openLogo : activeDrago ? dragoLogo : activePss ? pssLogo : '' } alt={t('experience.alt')} />
         </figure>
         <div className="experience__mosaic-text">
           {

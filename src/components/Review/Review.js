@@ -5,7 +5,7 @@ import './Review.scss'
 export const Review = ({title, job, text, src, alt, onClick, aria, href }) => {
 
     return (
-        <a class="review-link" href={href} target="_blank" aria-label={aria} rel="noreferrer noopener">
+        <a className="review-link" href={href} target="_blank" aria-label={aria} rel="noreferrer noopener">
             <article className="review" onClick={onClick}>
                 <figure className="review__img-container">
                     <img alt={alt} src={src} className="review__img"/>
