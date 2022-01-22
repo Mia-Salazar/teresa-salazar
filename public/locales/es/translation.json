@@ -7,7 +7,7 @@
   },
   "nav": {
     "experience": "Experiencia",
-    "education": "Formación",
+    "education": "Formación y certificados",
     "awards": "Premios",
     "speech": "Charlas y publicaciones",
     "contact": "Contacto"
@@ -110,7 +110,7 @@
     "cta": "Enviar"
   },
   "education": {
-    "title": "Formación",
+    "title": "Formación y certificados",
     "subtitle": "Soy una persona muy curiosa a la que le encanta aprender cosas nuevas. Estos son algunos de los cursos que he realizado.",
     "more": "Más información",
     "now": "Actualidad",
@@ -153,6 +153,36 @@
       "subtitle": "Universitat d'Alacant",
       "year": "2016",
       "more": "Curso de introducción al desarrollo web front-end en colaboración con Google - Actívate."
+    },
+    "eight": {
+      "title": "Jornadas de trabajo sobre transexualidad)",
+      "subtitle": "Colegio Oficial de Psicología de Andalucía Occidenta",
+      "year": "2014"
+    },
+    "nine": {
+      "title": "Copywriting for Recruiters",
+      "subtitle": "Mitch Sullivan & Javie Barri",
+      "year": "2020"
+    },
+    "ten": {
+      "title": "Infojobs for Recruiters",
+      "subtitle": "Infojobs",
+      "year": "2021"
+    },
+    "eleven": {
+      "title": "Autism and Neurodiversity in the Workplace",
+      "subtitle": "University of British Columbia",
+      "year": "2021"
+    },
+    "twelve": {
+      "title": "Certificado de Negociación Creativa - El Modelo de Negociación de Harvard",
+      "subtitle": "Udemy",
+      "year": "2021"
+    },
+    "thirteen": {
+      "title": "Certificado Agile Recruitment.",
+      "subtitle": "Agile Institute",
+      "year": "2021"
     }
   },
   "experience":{
