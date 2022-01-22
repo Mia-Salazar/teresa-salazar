@@ -11,7 +11,7 @@ import './Experience.scss'
 import openLogo from '../../assets/images/open-logo.png'
 import pssLogo from '../../assets/images/pss-logo.png'
 import dragoLogo from '../../assets/images/drago-logo.png'
-import parabolLogo from '../../assets/images/parabol.png'
+import parabolLogo from '../../assets/images/parabol.svg'
 
 const Experience = () => {
   const [active, setActive] = useState(false)
@@ -29,20 +29,21 @@ const Experience = () => {
       }
     }  else if (type === 'drago') {
       setActiveDrago(!activeDrago)
-      if (activeOpen === true | activePss === true| active === true) {
+      if (activeOpen === true | activePss === true | active === true) {
         setActive(false)
         setActivePss(false)
         setActiveOpen(false)
       }
     } else if(type === 'open') {
-      setActive(!activeOpen)
-      if (activeDrago === true | activePss === true| active === true) {
+      setActiveOpen(!activeOpen)
+      if (activeDrago === true | activePss === true | active === true) {
         setActivePss(false)
         setActiveDrago(false)
         setActive(false)
       }
     } else {
-      if (activeDrago === true | activePss === true| activeOpen === true) {
+      setActive(!active)
+      if (activeDrago === true | activePss === true | activeOpen === true) {
         setActivePss(false)
         setActiveDrago(false)
         setActiveOpen(false)
@@ -57,21 +58,21 @@ const Experience = () => {
       <Title title={t('experience.title')} />
       <p className="text">{t('experience.subtitle')}</p>
       <h2 className="leading-text">{t('experience.click')}</h2>
-      <article className={active | activePss | activeDrago ? "experience__mosaic experience__mosaic--active" : "experience__mosaic" }>
-        <figure className={active ? "experience__mosaic-image open" : activeDrago ? "experience__mosaic-image drago" : activePss ? "experience__mosaic-image pss" : "experience__mosaic-image" }>
+      <article className={active | activeOpen | activePss | activeDrago ? "experience__mosaic experience__mosaic--active" : "experience__mosaic" }>
+        <figure className={active ? "experience__mosaic-image parabol" : activeOpen ? "experience__mosaic-image open" : activeDrago ? "experience__mosaic-image drago" : activePss ? "experience__mosaic-image pss" : "experience__mosaic-image" }>
           <img className="experience__logo" src={active ? parabolLogo : activeOpen ? openLogo : activeDrago ? dragoLogo : activePss ? pssLogo : '' } alt={t('experience.alt')} />
         </figure>
         <div className="experience__mosaic-text">
           {
           active ? <Parabol active={active}/> :
-          activeOpen ? <Open active={activeOpen}/> :
+          activeOpen ? <Open activeOpen={activeOpen}/> :
           activePss ? <Pss activePss={activePss}/> :
           activeDrago ? <Drago activeDrago={activeDrago}/> : ''
           }
         </div>
       </article>
       <div className="experience__item-container">
-      <ExperienceItem onClick={() => toggleActive('parabol')} active={active} title={t('experience.cero.title')} year={t('experience.cero.year')} subtitle={t('experience.cero.company')}>
+        <ExperienceItem onClick={() => toggleActive('parabol')} active={active} title={t('experience.cero.title')} year={t('experience.cero.year')} subtitle={t('experience.cero.company')}>
           <p className="experience-item__text">{t('experience.cero.description')}</p>
           <p className="experience-item__text">{t('experience.cero.descriptionTwo')}</p>
           <ul className="experience-item__list">
