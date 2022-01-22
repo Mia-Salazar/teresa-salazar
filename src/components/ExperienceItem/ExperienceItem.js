@@ -2,13 +2,13 @@ import React from 'react'
 import PropTypes from 'prop-types'
 import './ExperienceItem.scss'
 
-export const ExperienceItem = ({title, subtitle, year, children, active, onClick, activePss, activeDrago }) => {
+export const ExperienceItem = ({title, subtitle, year, children, active, onClick, activePss, activeDrago, activeOpen }) => {
     return (
-        <article className={active | activeDrago | activePss ? "experience-item active" : "experience-item" } onClick={onClick}>
+        <article className={active | activeOpen | activeDrago | activePss ? "experience-item active" : "experience-item" } onClick={onClick}>
             <h3 className="experience-item__title">{title}</h3>
             <p className="experience-item__subtitle">{subtitle}</p>
             <p className="experience-item__year">{year}</p>
-            <div className={active | activeDrago | activePss ? "experience-item__info experience-item__info--active" : "experience-item__info" } >
+            <div className={active | activeOpen | activeDrago | activePss ? "experience-item__info experience-item__info--active" : "experience-item__info" } >
                 {children}
             </div>
         </article>

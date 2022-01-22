@@ -14,8 +14,8 @@
         @media (min-width: 1200px){
             max-width: 1035px;
             display: grid;
-            grid-template-columns: 1fr 1fr 1fr;
-            grid-column-gap: 30px;
+            grid-template-columns: 1fr 1fr 1fr 1fr;
+            grid-gap: 30px;
             margin-right: auto;
             margin-left: auto;
         }
@@ -45,6 +45,10 @@
 
         &.drago {
             background-color: #fa475d;
+        }
+
+        &.parabol {
+            background-color: #493272;
         }
     }
 
