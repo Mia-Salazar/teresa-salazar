@@ -20,6 +20,13 @@ export const Open = ({active }) => {
                 <li>{t('experience.one.listEight')}</li>
                 <li>{t('experience.one.listNine')}</li>
                 <li>{t('experience.one.listTen')}</li>
+                { t('experience.one.listEleven') &&
+                <>
+                    <li>{t('experience.one.listEleven')}</li>
+                    <li>{t('experience.one.listTwelve')}</li>
+                    <li>{t('experience.one.listThirteen')}</li>
+                </>
+                }
             </ul>
         </>
     )
