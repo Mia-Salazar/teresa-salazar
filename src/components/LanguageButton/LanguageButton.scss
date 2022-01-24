@@ -1,0 +1,22 @@
+@import '../../App.scss';
+
+.language-buttons {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 16px;
+
+    &__item {
+        padding: 8px;
+        border: none;
+        background-color: transparent;
+        color: $dark-purple;
+        font-family: $sans-serif-family;
+        border: 2px solid $dark-purple;
+        font-weight: bold;
+
+        &--active, &:hover {
+            background-color: $dark-purple;
+            color: $white;
+        }
+    }
+}

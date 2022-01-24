@@ -99,7 +99,7 @@
 		text-decoration: none;;
 
 		@media (min-width: 1050px) {
-			font-size: $fs-3xl;
+			font-size: $fs-2xl;
 		}
 	}
 
@@ -109,10 +109,6 @@
 		@media (min-width: 1024px) {
 			margin-top: 100px;
 			margin-left: 0;
-		}
-
-		@media (min-width: 1024px) and (max-height: 750px){
-			margin-top: 85px;
 		}
 
 		span {
@@ -132,11 +128,11 @@
 		}
 
 		@media (min-width: 1050px) {
-			margin-top: -28px;
+			margin-top: 0;
 		}
 
-		@media (min-width: 1024px) and (max-height: 750px){
-			margin-bottom: 5px;
+		@media (min-width: 1200px) {
+			margin-top: -18px;
 		}
 
 		&:after {
@@ -150,7 +146,7 @@
 			z-index: $z-index-infra;
 
 			@media (min-width: 1050px){
-				height: 65px;
+				height: 51px;
 			}
 		}
 
