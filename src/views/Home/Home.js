@@ -45,7 +45,7 @@ const Home = () => {
   return (
     <section className="home">
       <Title title={t('home.title')} />
-      <div className="text">Soy <span className="home__personality"><TextLoop springConfig={{ stiffness: 180, damping: 8 }} children={["Teresa Salazar", "Human Resources", "friki as hell", "karaoke fan", "Recruiter"]} /></span></div>
+      <div className="text">{t('header.am')} <span className="home__personality"><TextLoop springConfig={{ stiffness: 180, damping: 8 }} children={["Teresa Salazar", "Human Resources", "friki as hell", "karaoke fan", "Recruiter"]} /></span></div>
       <p className="text">{t('header.about')}</p>
       <p className="text">{t('header.aboutTwo')}</p>
       <h3 className="leading-text">{t('home.project')}</h3>
@@ -69,7 +69,7 @@ const Home = () => {
         <LazyLoad throttle={200} height={50}>
           <Article title={t('article.article6.title')} link="https://medium.com/@tsalazargr/el-humor-en-los-tiempos-del-coronavirus-2efa7ec8ddfe" imageUrl={coronaImage} />
         </LazyLoad>
-      </Carousel>;
+      </Carousel>
       </div>
       <h3 className="leading-text leading-text--review">{t('opinion.title')}</h3>
       <div className="home__reviews">
