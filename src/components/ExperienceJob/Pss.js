@@ -8,6 +8,12 @@ export const Pss = ({activePss }) => {
         <>
         <h4>{t('experience.two.title')}</h4>
           <p className="experience-item__text">{t('experience.two.description')}</p>
+          { t('experience.two.descriptionOne') &&
+            <>
+              <p className="experience-item__text">{t('experience.two.descriptionOne')}</p>
+              <p className="experience-item__text">{t('experience.two.descriptionTwo')}</p>
+            </>
+          }
           <ul className="experience-item__list">
             <li>{t('experience.two.list')}</li>
             <li>{t('experience.two.listTwo')}</li>
@@ -18,9 +24,13 @@ export const Pss = ({activePss }) => {
             <li>{t('experience.two.listSeven')}</li>
             <li>{t('experience.two.listEight')}</li>
             <li>{t('experience.two.listNine')}</li>
-            <li>{t('experience.two.listTen')}</li>
-            <li>{t('experience.two.listEleven')}</li>
-            <li>{t('experience.two.listTwelve')}</li>
+            { t('experience.two.listTen') &&
+              <>
+                <li>{t('experience.two.listTen')}</li>
+                <li>{t('experience.two.listEleven')}</li>
+                <li>{t('experience.two.listTwelve')}</li>
+              </>
+            }
           </ul>
         </>
     )

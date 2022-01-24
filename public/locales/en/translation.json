@@ -1,0 +1,290 @@
+{
+    "header":{
+      "img": "Picture of me with Alan Turing",
+      "meet": "Follow me",
+      "about": "Once upon a time there was a psychologist with a great passion: brains. She tried to make a job of this hobby, specializing in the field of neuroscience and collaborating in several experimental laboratories. However, over time she discovered that in Spain you cannot make a living from research. ",
+      "aboutTwo": "That's how he ended up dedicating himself to his two other passions: people and technology. He now works as an IT selection technician. If you have a problem and you find her, maybe she can hire you..."
+    },
+    "nav": {
+      "experience": "Experience",
+      "education": "Education and certificates",
+      "awards": "Awards",
+      "speech": "Talks and Publications",
+      "contact": "Contact"
+    },
+    "home": {
+      "title": "Hello!",
+      "HR": "Human Resources",
+      "friki": "friki",
+      "bilingual": "bilingüe",
+      "karaoke": "cantante de karaoke",
+      "project": "Some of my projects"
+    },
+    "footer": {
+      "made": "Made by",
+      "link": "Made with",
+      "linkedin": "Visit my linkedin",
+      "github": "Visit my github",
+      "twitter": "Visit my twitter",
+      "medium": "Visit my perfil de medium"
+    },
+    "article": {
+      "cta": "More",
+      "article1": {
+        "title": "El Algoritmo de Apple Card es el Nuevo Test de Inteligencia",
+        "text":"A estas alturas probablemente te hayas enterado. Apple Card la ha liado. Y mucho.",
+        "alt": "Tarjeta de apple"
+      },
+      "article2": {
+        "title": "7 seres de ultratumba que encontrarás en una oficina",
+        "alt": "Fotografía de halloween",
+        "text": "Hay oficinas que parecen una casa del terror. Y es que puedes encontrarte seres salidos de una película de miedo. Como por ejemplo…"
+      },
+      "article3": {
+        "title": "Se Busca Madre Social: Los Peligros de la Tecnología en Recursos Humanos",
+        "alt": "Hombre mirando un portátil",
+        "text": "Imagina que estás buscando empleo. Mientras visitas una web de ofertas, te encuentras una que te deja confuso. Y no por el salario, o por los requisitos, o por el tipo de tareas a realizar."
+      },
+      "article4": {
+        "title": "El lado oscuro del Scraping en Recruiting",
+        "alt": "Teresa durante una charla en la Pycones",
+        "text": "La tecnología ha revolucionado los recursos humanos. Técnicas como el scraping se utilizan hoy en día para encontrar el mejor talento de forma más rápida y efectiva que nunca."
+      },
+      "article5": {
+        "title": "El lado oscuro de la digitalización en recruiting",
+        "alt": "Teresa durante una charla en Open Sistemas"
+      },
+      "article6": {
+        "title": "El Humor en los Tiempos del Coronavirus",
+        "alt": "Meme de coronavirus",
+        "text": "Debo confesar algo: tengo un humor muy poco oportuno. Mi chiste favorito es de bebés muertos. Cuando me gritan me da la risa tonta. Y cuando hay una catástrofe mundial como el Covid19… me paso el día repartiendo memes."
+      },
+      "article7": {
+        "title": "Podcast En Pixeles:",
+        "alt": "",
+        "text": "Mitos en los procesos de selección"
+      },
+      "article8": {
+        "title": "La Transformación Digital en Recursos Humanos",
+        "alt": "",
+        "text": "Universidad Isabel I"
+      },
+      "article10": {
+        "title": "El Lado Oscuro de la Digitalización en Recursos Humanos",
+        "alt": "",
+        "text": "Universidad Nebrija"
+      },
+      "article11": {
+        "title": "Segundo Premio al Mejor Póster y Premio Favoritos del Público",
+        "alt": "",
+        "text": ""
+      },
+      "article12": {
+        "title": "10 Películas de Halloween Aptas Para Miedosos ",
+        "alt": "",
+        "text": "Me encanta Halloween. La estética, la irreverencia, los disfraces… Ya sé que como española debería ser fiel al Día de Todos los Santos, pero…"
+      }
+    },
+    "opinion": {
+      "title": "What they think of me",
+      "one": {
+        "name": "Juan Manuel Pérez",
+        "aria": "Visit the profile of Juan",
+        "job": "Devops / System Engineer at Amaris",
+        "alt": "Image of Juan Manuel Pérez",
+        "text": "One of the most attentive and methodical interviewers who always has my profile under control when I go to ask about the status of my applications. It is a pity that working with her does not coincide with the effort she has put into trying to make the process go ahead. I look forward to working with her again in my future job searches."
+      },
+      "two": {
+        "name": "Luis Vidaechea Benito",
+        "aria": "Visit the profile of Luis",
+        "job": "Scrum Master & Agile Coach at Entelgy",
+        "alt": "Image of Luis Vidaechea",
+        "text": "Teresa is an exceptional recruiter, very involved and passionate about her work. I have been lucky enough to be in a couple of selection processes with her and I can only say that the treatment received was incredible, very attentive and close."
+      },
+      "three": {
+        "name": "Gonzalo Pareja Bolaños",
+        "aria": "Visit the profile of Gonzalo",
+        "job": "COO at Avansis",
+        "alt": "Image of Gonzalo Pareja",
+        "text": "Teresa is an excellent professional, from the first moment I met her she transmitted to me that she is completely committed to her work and involved with the tasks to be performed. She is a very nice person, organized, and she knows how to team up. She is one of the best recruiters I have worked with and I am sure that she will add a lot of value to any company where she is."
+      },
+      "four": {
+        "name": "Irene Castro Sánchez",
+        "aria": "Visit the profile of Irene",
+        "job": "Talent Acquisition Expert / Recruiter at OpenSistemas",
+        "alt": "Image of Irene Castro",
+        "text": "Teresa is, without a doubt, the best boss I have ever had. Beyond her indisputable professional quality, she is a colleague with an exemplary sense of justice, seeking equity within her team, offering a kind, patient, generous and fun treatment. Working under her command has been a real pleasure, I wish all managers were like her."
+      }
+    },
+    "contact": {
+      "title": "Contact",
+      "subtitle": "Doubts? Questions? Bomb cards? You can contact me through this form or on my social networks.",
+      "form": "Fill the form",
+      "name": "Your name",
+      "mail": "Your email",
+      "message": "Write your message",
+      "cta": "Send"
+    },
+    "speech": {
+      "title": "Talks and Publications",
+      "subtitle": "I like to share what I think. That is why I have written several articles and given talks about the world of technology and human resources.",
+      "form": "Fill the form",
+      "name": "Your name",
+      "mail": "Your email",
+      "message": "Write your message",
+      "cta": "Send"
+    },
+    "education": {
+        "title": "Education and certificates",
+        "subtitle": "I am a very curious person who loves to learn new things. These are some of the courses I have taken.",
+        "more": "More information",
+        "now": "Currently",
+        "one": {
+          "title": "Valedictorian of the Master’s Degree in Advanced Brain and Behavior Studies",
+          "subtitle": "University of Seville",
+          "year": "2015",
+          "more": "Master’s Degree in Advanced Brain and Behavior Studies"
+        },
+        "two": {
+          "title": "Master’s Degree in Advanced Brain and Behavior Studies",
+          "subtitle": "University of Seville",
+          "year": "2013-2015",
+          "more": "Student Delegation"
+        },
+        "three": {
+          "title": "Master’s Degree in Human Resources Managament",
+          "subtitle": "University Camilo Jose Cela",
+          "year": "2015-2017"
+        },
+        "four": {
+          "title": "Certificate of Proficiency in English (CPE - C2) ",
+          "subtitle": "University of Cambridge",
+          "year": "2013",
+          "more": "Certificate of the highest level of English offered by the institution."
+        },
+        "five": {
+          "title": "Bachelor’s Degree in Psychology",
+          "subtitle": "University of Seville",
+          "year": "2007-2013"
+        },
+        "six": {
+          "title": "Infojobs for recruiters",
+          "subtitle": "PSS",
+          "year": "2016",
+          "more": "SEO, ad optimization, social media optimization, database sourcing, tech recruiting"
+        },
+        "seven": {
+          "title": "Web Development 101 (Part 1)",
+          "subtitle": "Universitat d'Alacant",
+          "year": "2016",
+          "more": "Introduction to front-end web development course in collaboration with Google - Activate yourself."
+        },
+        "eight": {
+          "title": "Transgender Rights Workshop",
+          "subtitle": "Official College of Psychology of Western Andalusia",
+          "year": "2014"
+        },
+        "nine": {
+          "title": "Copywriting for Recruiters",
+          "subtitle": "Mitch Sullivan & Javie Barri",
+          "year": "2020"
+        },
+        "have": {
+          "title": "Infojobs for Recruiters",
+          "subtitle": "Infojobs",
+          "year": "2021"
+        },
+        "eleven": {
+          "title": "Autism and Neurodiversity in the Workplace",
+          "subtitle": "University of British Columbia",
+          "year": "2021"
+        },
+        "twelve": {
+          "title": "Creative Negotiation Certificate - Harvard’s Negotiation Model",
+          "subtitle": "Udemy",
+          "year": "2021"
+        },
+        "thirteenth": {
+          "title": "Agile Recruitment Certificate.",
+          "subtitle": "Agile Institute",
+          "year": "2021"
+        }
+      },
+    "experience":{
+      "title": "Experience",
+      "info": "More",
+      "click": "Click for more information",
+      "alt": "Company logo",
+      "subtitle": "I have experience in the selection of technical profiles within the field of Big Data, Machine Learning, Web Development, E-commerce and OpenSource, as well as in team management.",
+      "cero": {
+        "title": "International Technical Recruiter / TAM",
+        "company": "Parabol",
+        "year": "Nov 2021 - Now",
+        "description": "We are a small, global, 100% remote company. Our goal is to help international and remote teams work together to create great things. Our platform allows for agile and asynchronous meetings.",
+        "descriptionTwo": "As the in-house recruiter, my roles include:",
+        "list": "Finding and interviewing the best Tech talent. End to end management of the recruiting process.",
+        "listTwo": "Develop and implement diversity and social inclusion plans.",
+        "listThree": "Identifying the needs of hiring managers and stakeholders.",
+        "listFour": "Carry out actions in social networks to improve our employer brand. Content marketing.",
+        "listFive": "Optimise our employer value proposition.",
+        "listSix": "Make data-driven decisions to improve our talent pipeline. ",
+        "listSeven": "Represent the company at events and speaking engagements.",
+        "listEight": "Manage suppliers and headhunting companies.",
+        "listNine": "Negotiating salaries and onboarding.",
+        "listTen": "Tools and technologies: G Suite, Notion, HubSpot, A/B Testing, LinkedIn, GitHub, Stack Overflow, Twitter, Discord...",
+        "listEleven": "Do you want to work with us? Send your CV to jobs@parabol.co"
+      },
+      "one": {
+        "title": "Talent Acquisition Manager / International Tech Recruiter",
+        "company": "Open Sistemas",
+        "year": "Aug 2018 - Oct 2021",
+        "description": "Head of the Talent Acquisition team & Tech Recruiter.",
+        "descriptionTwo": "As the department's lead talent acquisition manager (TAM) my responsibilities include:",
+        "list": "Building the team from scratch to scale as the company's needs grew. Training and managing the rest of the team. Conflict resolution. Managing priorities and workloads.",
+        "listTwo": "Recruiting top IT talent in the Open Source, Big Data, Cloud, e-Commerce, SaaS, IoT and Software Development fields, managing the end-to-end recruiting cycle.",
+        "listThree": "International recruitment for the Spanish, Irish and LATAM market.",
+        "listFour": "Work with hiring managers, business leaders and stakeholders to identify their needs.",
+        "listFive": "Superuser of our ATS with administrator rights.",
+        "listSix": "Serve as the company's internal consultant on matters of negotiation, onboarding and employee retention.",
+        "listSeven": "Designing processes and identifying best practices to improve the candidate's experience as well as increase diversity.",
+        "listEight": " Making data-driven decisions. A/B Testing. Creating reports and dashboard. Tracking KPIs.",
+        "listNine": "Social media marketing & content marketing to improve the company's brand and value proposition. ",
+        "listTen": "Give talks at leading Tech and HR events to represent the company. ",
+        "listEleven": "Implement an agile-based methodology to optimize the talent acquisition team's work.",
+        "listTwelve": "Collaborate with recruitment agencies when needed.",
+        "listThirteen": "Sourcing using tools such as job boards, LinkedIn, Stack Overflow, Github, Twitter, Discord groups…"
+      },
+      "two": {
+        "title": "Tech Recruiter",
+        "company": "PSS",
+        "year": "Oct 2016 - Aug 2018",
+        "description": "The first few months I was the only Tech recruiter at Alfa9, a startup that specialized in e-commerce and Open Source technologies.",
+        "descriptionOne": "After Alfa9 was bought by PSS, I joined PSS' recruiting team.",
+        "descriptionTwo": "As a tech recruiter, my duties include:",
+        "list": "Active and Passive sourcing of candidates. Finding the best IT talent in the fields of software development, eCommerce and Big Data.",
+        "listTwo": "Writing job postings and uploading them to infojobs, tecnoempleo, LinkedIn and Twitter. CV screening.",
+        "listThree": "Conducting structured and technical interviews in situ, over the phone and through skype.",
+        "listFour": "Salary negotiation. ",
+        "listFive": "Managing the hiring process. Onboarding new hires.",
+        "listSix": "Testing applicants' English for international positions. ",
+        "listSeven": "Approaching universities, schools and academies for training agreements and internship placements. Contacting agencies to outsource certain positions.",
+        "listEight": " Improving the company's employer brand through social media actions.",
+        "listNine": "Contingency recruitment & retainer recruitment according to the clients' needs. In-house recruitment for certain positions."
+      },
+      "three": {
+        "title": "IT Recruitment Technician / IT Recruitment / IT Recruiter",
+        "company": "Devoteam Drago",
+        "year": "Feb 2016 - Oct 2016",
+        "description": "As an IT Recruitment Technician in the HR department, I carry out the entire IT staff selection cycle, always working for the end customer. My responsibilities include: ",
+        "list": "Define the profile to look for together with the future manager of the person hired, write the job offer and publish it on employment portals such as infojobs, tecnoempleo, jobsandtalent, primerempleo, portalento, konzerta, SEPE...",
+        "listTwo": "Telephone and in-person interviews, competency interview.",
+        "listThree": "Internal processing of incorporation and onboarding.",
+        "listFour": "Administrative tasks derived from the position: management of PRL documentation, management of the flexible compensation plan...",
+        "listFive": "IT selection of development profiles, systems, Big Data and Business Intelligence.",
+        "listSix": "Bilingual English level. I use English frequently for: ",
+        "listSeven": "Give candidates oral English tests",
+        "listEight": "Translation of resumes and other client documentation",
+        "listNine": "Interpreter duties during meetings with foreign clients"
+      }
+    }
+  }
