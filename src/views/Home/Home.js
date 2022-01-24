@@ -45,7 +45,7 @@ const Home = () => {
   return (
     <section className="home">
       <Title title={t('home.title')} />
-      <div className="text">{t('header.am')} <span className="home__personality"><TextLoop springConfig={{ stiffness: 180, damping: 8 }} children={["Teresa Salazar", "Human Resources", "friki as hell", "karaoke fan", "Recruiter"]} /></span></div>
+      <div className="text">{t('header.am')} <span className="home__personality"><TextLoop springConfig={{ stiffness: 180, damping: 8 }} children={["Teresa Salazar", "Human Resources", "geeky as hell", "a karaoke fan", "a talent acquistion manager", "a recruiter"]} /></span></div>
       <p className="text">{t('header.about')}</p>
       <p className="text">{t('header.aboutTwo')}</p>
       <h3 className="leading-text">{t('home.project')}</h3>
