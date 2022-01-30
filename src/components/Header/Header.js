@@ -34,7 +34,7 @@ const Header = () => {
         <span className="header__hamburguer-item fifth"></span>
         <span className="header__hamburguer-item sith"></span>
       </button>
-      <Nav menuVisible={menuVisible} />
+      <Nav menuVisible={menuVisible} toggleMenu={toggleMenu}/>
 		</header>
   );
 }
