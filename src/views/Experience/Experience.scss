@@ -11,13 +11,18 @@
     &__item-container {
         padding: 0 20px;
 
-        @media (min-width: 1200px){
+        @media (min-width: 800px) {
             max-width: 1035px;
             display: grid;
-            grid-template-columns: 1fr 1fr 1fr 1fr;
+            grid-template-columns: 1fr 1fr;
             grid-gap: 30px;
             margin-right: auto;
             margin-left: auto;
+        }
+
+        @media (min-width: 1200px){
+            max-width: 1035px;
+            grid-template-columns: 1fr 1fr 1fr 1fr;
         }
     }
 
@@ -68,9 +73,7 @@
         }
 
         &--active {
-            @media (min-width: 1200px){
-                display: grid;
-            }
+            display: grid;
         }
     }
 }
